@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Verummeum</title>
+    <link>https://verummeum.com/tags/</link>
+    <description>Recent content in Tags on Verummeum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://verummeum.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux</title>
+      <link>https://verummeum.com/tags/linux/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://verummeum.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pclinuxos</title>
+      <link>https://verummeum.com/tags/pclinuxos/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://verummeum.com/tags/pclinuxos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review</title>
+      <link>https://verummeum.com/tags/review/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://verummeum.com/tags/review/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

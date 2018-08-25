@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Verummeum</title>
+    <link>https://verummeum.com/categories/</link>
+    <description>Recent content in Categories on Verummeum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://verummeum.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Review</title>
+      <link>https://verummeum.com/categories/review/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://verummeum.com/categories/review/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
