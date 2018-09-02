@@ -6,37 +6,10 @@
     <description>Recent content in Tags on Verummeum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Sep 2018 14:19:00 +0200</lastBuildDate>
     
-	<atom:link href="https://verummeum.com/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://verummeum.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Linux</title>
-      <link>https://verummeum.com/tags/linux/</link>
-      <pubDate>Sat, 25 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://verummeum.com/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pclinuxos</title>
-      <link>https://verummeum.com/tags/pclinuxos/</link>
-      <pubDate>Sat, 25 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://verummeum.com/tags/pclinuxos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Review</title>
-      <link>https://verummeum.com/tags/review/</link>
-      <pubDate>Sat, 25 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://verummeum.com/tags/review/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

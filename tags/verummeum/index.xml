@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Verummeum</title>
-    <link>https://verummeum.com/blog/</link>
-    <description>Recent content in Blogs on Verummeum</description>
+    <title>Verummeum</title>
+    <link>https://verummeum.com/tags/verummeum/</link>
+    <description>Recent content on Verummeum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Sep 2018 14:19:00 +0200</lastBuildDate>
     
-        <atom:link href="https://verummeum.com/blog/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://verummeum.com/tags/verummeum/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -23,18 +23,6 @@ After researching the advantages and disadvantages of the different choices avai
 &lt;p&gt;Before I made the choice to use Hugo I first decided that I wanted to create Verummeum as a static website. A static website has a number of advantages compared to a dynamic website.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>PCLinuxOS KDE Review</title>
-      <link>https://verummeum.com/blog/2018/08/25/pclinuxos-review-2018/</link>
-      <pubDate>Sat, 25 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://verummeum.com/blog/2018/08/25/pclinuxos-review-2018/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.pclinuxos.com/&#34;&gt;PCLinuxOS&lt;/a&gt; is a rolling release Linux distribution, offering a KDE and a MATE desktop version. Besides these official versions, other community maintained flavors for other desktop environments are available. This review is based on the KDE version of PCLinuxOS.&lt;/p&gt;
-
-&lt;p&gt;The distribution is based on Mandriva Linux and uses RPM packages. It is a rolling release distribution that favors stability over providing bleeding edge software.
-&lt;/p&gt;</description>
     </item>
     
   </channel>

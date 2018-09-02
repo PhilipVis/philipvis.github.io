@@ -6,10 +6,24 @@
     <description>Recent content on Verummeum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Sep 2018 14:19:00 +0200</lastBuildDate>
     
-	<atom:link href="https://verummeum.com/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://verummeum.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How Verummeum is built, Hugo static site generator</title>
+      <link>https://verummeum.com/blog/2018/09/02/how-verummeum-is-build/</link>
+      <pubDate>Sun, 02 Sep 2018 14:19:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/blog/2018/09/02/how-verummeum-is-build/</guid>
+      <description>&lt;p&gt;Before I started building Verummeum I compared a number of different frameworks and content management systems.
+After researching the advantages and disadvantages of the different choices available, I finally decided to create Verummeum using Hugo.&lt;/p&gt;
+
+&lt;p&gt;Before I made the choice to use Hugo I first decided that I wanted to create Verummeum as a static website. A static website has a number of advantages compared to a dynamic website.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>PCLinuxOS KDE Review</title>
@@ -21,34 +35,6 @@
 
 &lt;p&gt;The distribution is based on Mandriva Linux and uses RPM packages. It is a rolling release distribution that favors stability over providing bleeding edge software.
 &lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://verummeum.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://verummeum.com/about/</guid>
-      <description>The purpose of Verummeum is to provide you with interesting articles about software development, open source projects and gaming. Most of these articles will have a focus on the Linux operating system. We hope you will enjoy our guides, reviews and opinion pieces about the latest developments in the software world.
-Verummeum wants to provide a platform for interesting discussions amongst you, our dear readers. For this purpose a comment section is available under each article.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://verummeum.com/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://verummeum.com/contact/</guid>
-      <description>Feel free to contact me Please feel free to contact me using the contact form below.</description>
-    </item>
-    
-    <item>
-      <title>Search</title>
-      <link>https://verummeum.com/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://verummeum.com/search/</guid>
-      <description></description>
     </item>
     
   </channel>
