@@ -6,10 +6,22 @@
     <description>Recent content in Blogs on Verummeum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Sep 2018 14:19:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 09 Sep 2018 18:34:00 +0200</lastBuildDate>
     
         <atom:link href="https://verummeum.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Voyager Live 18.04.1 Review</title>
+      <link>https://verummeum.com/blog/2018/09/09/voyager-live-review-2018/</link>
+      <pubDate>Sun, 09 Sep 2018 18:34:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/blog/2018/09/09/voyager-live-review-2018/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://voyagerlive.org/&#34;&gt;Voyager Live&lt;/a&gt; is a Xubuntu based Linux distribution, offering a heavily themed XFCE desktop. This distribution aims to deliver the best user experience by providing an aesthetically pleasing and immersive desktop environment.&lt;/p&gt;
+
+&lt;p&gt;The latest release of Voyager Live is based on the 18.04 Bionic Beaver long term support release of Xubuntu which is supported for 3 years. This is the version we will take a look at in this article.
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>How Verummeum is built, Hugo static site generator</title>

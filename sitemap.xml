@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://verummeum.com/blog/2018/09/09/voyager-live-review-2018/</loc>
+    <lastmod>2018-09-09T18:34:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/blog/2018/09/02/how-verummeum-is-build/</loc>
     <lastmod>2018-09-02T14:19:00+02:00</lastmod>
   </url>
@@ -18,7 +23,7 @@
   
   <url>
     <loc>https://verummeum.com/blog/</loc>
-    <lastmod>2018-09-02T14:19:00+02:00</lastmod>
+    <lastmod>2018-09-09T18:34:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -51,7 +56,13 @@
   
   <url>
     <loc>https://verummeum.com/tags/linux/</loc>
-    <lastmod>2018-08-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-09T18:34:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/live/</loc>
+    <lastmod>2018-09-09T18:34:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -63,13 +74,13 @@
   
   <url>
     <loc>https://verummeum.com/tags/review/</loc>
-    <lastmod>2018-08-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-09T18:34:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://verummeum.com/categories/review/</loc>
-    <lastmod>2018-08-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-09T18:34:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -85,13 +96,19 @@
   
   <url>
     <loc>https://verummeum.com/</loc>
-    <lastmod>2018-09-02T14:19:00+02:00</lastmod>
+    <lastmod>2018-09-09T18:34:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://verummeum.com/tags/verummeum/</loc>
     <lastmod>2018-09-02T14:19:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/voyager/</loc>
+    <lastmod>2018-09-09T18:34:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
