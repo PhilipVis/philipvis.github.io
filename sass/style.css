@@ -360,8 +360,10 @@ p.lead, section, div.section {
 
 #blog-post #post-content {
   margin-bottom: 20px; }
+  #blog-post #post-content h1, #blog-post #post-content h2, #blog-post #post-content h3 {
+    margin-top: 40px; }
 
-#blog-post #comments {
+#blog-post div#comments {
   padding: 20px 0;
   margin-top: 20px;
   border-top: solid 1px #eeeeee; }
@@ -798,6 +800,8 @@ p {
 
 #post-share {
   margin-bottom: 30px; }
+  #post-share a:hover {
+    text-decoration: none; }
 
 .thumbnail-image {
   margin-bottom: 10px;

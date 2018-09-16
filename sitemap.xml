@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://verummeum.com/blog/2018/09/16/hugo-advanced-features/</loc>
+    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/blog/2018/09/09/voyager-live-review-2018/</loc>
     <lastmod>2018-09-09T18:34:00+02:00</lastmod>
   </url>
@@ -23,7 +28,7 @@
   
   <url>
     <loc>https://verummeum.com/blog/</loc>
-    <lastmod>2018-09-09T18:34:00+02:00</lastmod>
+    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -38,19 +43,19 @@
   
   <url>
     <loc>https://verummeum.com/tags/guide/</loc>
-    <lastmod>2018-09-02T14:19:00+02:00</lastmod>
+    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://verummeum.com/categories/guide/</loc>
-    <lastmod>2018-09-02T14:19:00+02:00</lastmod>
+    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://verummeum.com/tags/hugo/</loc>
-    <lastmod>2018-09-02T14:19:00+02:00</lastmod>
+    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -90,19 +95,19 @@
   
   <url>
     <loc>https://verummeum.com/tags/</loc>
-    <lastmod>2018-09-02T14:19:00+02:00</lastmod>
+    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://verummeum.com/</loc>
-    <lastmod>2018-09-09T18:34:00+02:00</lastmod>
+    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://verummeum.com/tags/verummeum/</loc>
-    <lastmod>2018-09-02T14:19:00+02:00</lastmod>
+    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   

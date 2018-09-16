@@ -1,0 +1,1 @@
+This is the [Verummeum](https://verummeum.com/) website, generated from this [source code](https://github.com/PhilipVis/verummeum). Free to be used under the [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).

@@ -6,10 +6,22 @@
     <description>Recent content in Hugo on Verummeum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Sep 2018 14:19:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 16 Sep 2018 14:25:00 +0200</lastBuildDate>
     
         <atom:link href="https://verummeum.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Search, comments and an image viewer with Hugo</title>
+      <link>https://verummeum.com/blog/2018/09/16/hugo-advanced-features/</link>
+      <pubDate>Sun, 16 Sep 2018 14:25:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/blog/2018/09/16/hugo-advanced-features/</guid>
+      <description>&lt;p&gt;In a &lt;a href=&#34;https://verummeum.com/blog/2018/09/02/how-verummeum-is-build/&#34;&gt;previous article&lt;/a&gt; I wrote about why I chose Hugo, a static site generator, as the framework on which to build Verummeum.&lt;/p&gt;
+
+&lt;p&gt;Now I would like to go more in depth on the more advanced features I was able to integrate into Verummeum using Hugo. I hope this guide will be interesting for anyone who would like to know about the possibilities of static site generators in general, and of Hugo specifically. I myself underestimated the capabilities of static site generators until recently when I started doing some research, and I am happy to share what I have learned in this article.
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>How Verummeum is built, Hugo static site generator</title>
