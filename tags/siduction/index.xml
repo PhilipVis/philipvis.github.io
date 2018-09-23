@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Siduction on Verummeum</title>
+    <link>https://verummeum.com/tags/siduction/</link>
+    <description>Recent content in Siduction on Verummeum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Sep 2018 15:28:00 +0200</lastBuildDate>
+    
+        <atom:link href="https://verummeum.com/tags/siduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Siduction 2018.3 Cinnamon Review</title>
+      <link>https://verummeum.com/blog/2018/09/20/siduction-review-2018/</link>
+      <pubDate>Thu, 20 Sep 2018 15:28:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/blog/2018/09/20/siduction-review-2018/</guid>
+      <description>&lt;p&gt;The past week I tried to test &lt;a href=&#34;https://news.siduction.org/&#34;&gt;Siduction&lt;/a&gt; 2018.3, with the Cinnamon desktop environment. Siduction is a rolling-release Linux distribution based on Debian unstable, also known as Debian sid.&lt;/p&gt;
+
+&lt;p&gt;Siduction is available with many different desktop environments, namely KDE, LXQt, GNOME, Cinnamon, MATE, Xfce, Lxde, Xorg and noX. I chose to test the Cinnamon desktop because I have only used Cinnamon in combination with Linux Mint before, on which it ran very well, and I&amp;rsquo;d like to see how it performs on another Linux distribution.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
