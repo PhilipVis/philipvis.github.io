@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://verummeum.com/blog/2018/09/30/google-free-android/</loc>
+    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/blog/2018/09/20/siduction-review-2018/</loc>
     <lastmod>2018-09-20T15:28:00+02:00</lastmod>
   </url>
@@ -32,8 +37,14 @@
   </url>
   
   <url>
+    <loc>https://verummeum.com/tags/android/</loc>
+    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/blog/</loc>
-    <lastmod>2018-09-20T15:28:00+02:00</lastmod>
+    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -47,14 +58,20 @@
   </url>
   
   <url>
+    <loc>https://verummeum.com/tags/google/</loc>
+    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/tags/guide/</loc>
-    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
+    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://verummeum.com/categories/guide/</loc>
-    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
+    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,6 +100,12 @@
   </url>
   
   <url>
+    <loc>https://verummeum.com/tags/privacy/</loc>
+    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/tags/review/</loc>
     <lastmod>2018-09-20T15:28:00+02:00</lastmod>
     <priority>0</priority>
@@ -99,6 +122,12 @@
   </url>
   
   <url>
+    <loc>https://verummeum.com/tags/security/</loc>
+    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/tags/siduction/</loc>
     <lastmod>2018-09-20T15:28:00+02:00</lastmod>
     <priority>0</priority>
@@ -106,13 +135,13 @@
   
   <url>
     <loc>https://verummeum.com/tags/</loc>
-    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
+    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://verummeum.com/</loc>
-    <lastmod>2018-09-20T15:28:00+02:00</lastmod>
+    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
