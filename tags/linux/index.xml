@@ -6,10 +6,23 @@
     <description>Recent content in Linux on Verummeum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Sep 2018 15:28:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 07 Oct 2018 21:43:00 +0200</lastBuildDate>
     
         <atom:link href="https://verummeum.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>KDE Neon review</title>
+      <link>https://verummeum.com/blog/2018/10/07/kde-neon-review-2018/</link>
+      <pubDate>Sun, 07 Oct 2018 21:43:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/blog/2018/10/07/kde-neon-review-2018/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://neon.kde.org/&#34;&gt;KDE Neon&lt;/a&gt; recently released a new version of their Linux distribution, which I have been testing for the past week. I would like to share my experience with you in this article.&lt;/p&gt;
+
+&lt;p&gt;The distribution is based on Ubuntu 18.04 &amp;ldquo;Bionic Beaver&amp;rdquo;, the latest long-term support &lt;a href=&#34;https://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; release. What makes KDE Neon an interesting and unique project is that they provide a rolling release of the KDE Plasma desktop environment on top of the stable Ubuntu LTS base. Let&amp;rsquo;s find out if this mix of a stable base with a rolling KDE environment is a winning combination!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Siduction 2018.3 Cinnamon Review</title>
