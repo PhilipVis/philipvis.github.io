@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://verummeum.com/blog/2018/10/14/portable-package-formats/</loc>
+    <lastmod>2018-10-14T22:27:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/blog/2018/10/07/kde-neon-review-2018/</loc>
     <lastmod>2018-10-07T21:43:00+02:00</lastmod>
   </url>
@@ -48,8 +53,14 @@
   </url>
   
   <url>
+    <loc>https://verummeum.com/tags/appimage/</loc>
+    <lastmod>2018-10-14T22:27:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/blog/</loc>
-    <lastmod>2018-10-07T21:43:00+02:00</lastmod>
+    <lastmod>2018-10-14T22:27:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -60,6 +71,12 @@
   
   <url>
     <loc>https://verummeum.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/flatpak/</loc>
+    <lastmod>2018-10-14T22:27:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -76,7 +93,7 @@
   
   <url>
     <loc>https://verummeum.com/categories/guide/</loc>
-    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
+    <lastmod>2018-10-14T22:27:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -145,6 +162,12 @@
   </url>
   
   <url>
+    <loc>https://verummeum.com/tags/snap/</loc>
+    <lastmod>2018-10-14T22:27:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/tags/</loc>
     <lastmod>2018-09-30T16:20:00+02:00</lastmod>
     <priority>0</priority>
@@ -152,7 +175,7 @@
   
   <url>
     <loc>https://verummeum.com/</loc>
-    <lastmod>2018-10-07T21:43:00+02:00</lastmod>
+    <lastmod>2018-10-14T22:27:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
