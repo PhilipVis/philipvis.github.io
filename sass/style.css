@@ -7,8 +7,7 @@ a i.fa, button i.fa {
   margin: 0 5px; }
 
 .uppercase-date {
-  text-transform: uppercase;
-  letter-spacing: 0.08em; }
+  text-transform: uppercase; }
 
 p.lead, section, div.section {
   margin-bottom: 40px; }

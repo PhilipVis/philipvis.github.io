@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search, comments and an image viewer with Hugo</title>
+  <meta name="author" content="Philip Vissenaekens" />
+
+  
+
+  
+  <meta name="description" content="Find out how Verummeum is built and why we choose to built it with Hugo, the static site generator.">
+  
+
+  <meta name="generator" content="Hugo 0.49.2" />
+
+  
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://verummeum.com/css/bundle/bundle.min.css" type="text/css">
+
+  
+  <link rel="shortcut icon" href="https://verummeum.com/img/favicon.ico" type="image/x-icon" />
+
+  <link rel="apple-touch-icon" sizes="76x76" href="https://verummeum.com/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://verummeum.com/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://verummeum.com/img/favicon-16x16.png">
+  <link rel="manifest" href="https://verummeum.com/img/site.webmanifest">
+  <link rel="mask-icon" href="https://verummeum.com/img/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="alternate" href="https://verummeum.com/index.xml" type="application/rss+xml" title="Verummeum">
+
+  
+  <meta property="og:title" content="Search, comments and an image viewer with Hugo" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/hugo-advanced-features//" />
+  <meta property="og:image" content="img/logo.png" />
+
+</head>
+
+
+<body>
+
+    <div id="all">
+
+        <header>
+
+            <div>
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="https://verummeum.com/">
+                    <img src="https://verummeum.com/img/verummeum.png" alt="Search, comments and an image viewer with Hugo logo">
+                    <span class="sr-only">Search, comments and an image viewer with Hugo - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/about/"> about</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/search/"><i class='fas fa-search'></i> search</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Search, comments and an image viewer with Hugo</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    <div>
+                            <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7DP53E&placement=verummeumcom" id="_carbonads_js"></script>
+                    </div>
+
+                    <div class="col-md-12" id="blog-post">
+
+                                        <p class="text-muted uppercase-date mb-small text-left"> <b>Last update:</b> September 16, 2018</p>
+
+
+                        <div id="post-content">
+                            <p>In a <a href="https://verummeum.com/how-verummeum-is-build/">previous article</a> I wrote about why I chose Hugo, a static site generator, as the framework on which to build Verummeum.</p>
+
+<p>Now I would like to go more in depth on the more advanced features I was able to integrate into Verummeum using Hugo. I hope this guide will be interesting for anyone who would like to know about the possibilities of static site generators in general, and of Hugo specifically. I myself underestimated the capabilities of static site generators until recently when I started doing some research, and I am happy to share what I have learned in this article.
+</p>
+
+<h2 id="search">Search</h2>
+
+<p>One of the features I wanted to include in Verummeum was a search page, where a reader could easily search through all articles within Verummeum. Because a static website does not have a database it can query, my first thought was that I would have to rely on an external service like Google or Algolia to provide a search for Verummeum. Luckily the <a href="https://gohugo.io/tools/search">Hugo documentation</a> described a few alternatives using Lunr.js. <a href="https://lunrjs.com/">Lunr.js</a> is a small Javascript based text search library that can be used to search through JSON documents, to find matching documents based on a search query.</p>
+
+<p>The lunr.js integrations that are described in the Hugo documentation make use of an external build tool like Gulp or Grunt to build the actual JSON file that can be used by lunr.js, but I wanted to avoid having to use any external build tools to build Verummeum. On the <a href="https://discourse.gohugo.io/t/search-index-json-file-for-lunr-js/6286/5">Hugo Forum</a> I found instructions on how you can generate the JSON file by only making use of Hugo&rsquo;s built-in features.</p>
+
+<h3 id="how-to-implement-a-lunr-js-search-page-in-hugo">How to implement a Lunr.js Search page in Hugo</h3>
+
+<p>Let&rsquo;s take a look at the code that is necessary to implement a search in Hugo using Lunr.js, without the use of any external build tools.</p>
+
+<p>The first step is to configure Hugo to output your content in the JSON format, since the JSON output format <a href="https://gohugo.io/templates/output-formats#output-formats-for-pages">is supported by Hugo</a>, this only requires enabling the JSON output in the config.toml configuration of the Hugo project.</p>
+
+<pre><code>[outputs]
+  home = [&quot;HTML&quot;, &quot;JSON&quot;, &quot;RSS&quot;]
+  blog = [&quot;HTML&quot;, &quot;JSON&quot;, &quot;RSS&quot;]
+</code></pre>
+
+<p><a href="https://github.com/PhilipVis/verummeum/blob/d65013ba1f3ee63da3be171f398aa62a8035d441/config.toml#L63-L65">Source on github</a>.</p>
+
+<p>The second step is to create an index.json file based on the JSON generated by Hugo. Start by creating an empty index.json file in your layouts folder. Then add the following code to generate the actual JSON.</p>
+
+<pre><code>{{- $.Scratch.Add &quot;index&quot; slice -}}
+{{- range where .Site.Pages &quot;Type&quot; &quot;in&quot;  (slice &quot;blog&quot;) -}}
+{{- $.Scratch.Add &quot;index&quot; (dict &quot;uri&quot; .Permalink &quot;title&quot; .Title &quot;tags&quot; .Params.tags &quot;date&quot; .Params.date &quot;summary&quot; .Summary &quot;banner&quot; .Params.banner) -}}
+{{- end -}}
+{{- $.Scratch.Get &quot;index&quot; | jsonify -}}
+</code></pre>
+
+<p><a href="https://github.com/PhilipVis/verummeum/blob/d65013ba1f3ee63da3be171f398aa62a8035d441/layouts/index.json">Source on github</a>.</p>
+
+<p>We make use of a <a href="https://gohugo.io/functions/scratch/">scratch</a> variable and the <a href="https://gohugo.io/functions/dict/">dict function</a> to build the content of our file while we iterate over our blog posts using the <a href="https://gohugo.io/functions/range">range function</a>. Then we use the <a href="https://gohugo.io/functions/jsonify">jsonify function</a> to format our content as JSON. You can see the resulting index.json file <a href="https://verummeum.com/index.json">here</a>.</p>
+
+<p>As you can see inside the dict function, I only include a summary of each blog post. Including the whole content of each blog post would increase the size of the index.json file dramatically, which in turn would slow down the actual search.</p>
+
+<p>Now that we have a JSON file to search through, it is time to include the Lunr.js library in our project. Either download to source or use a CDN link, and add the Lunr.js Javascript library to your HTML.</p>
+
+<pre><code>&lt;script src=&quot;https://unpkg.com/lunr/lunr.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+
+<p>The final step is to implement the search using Lunr.js. Refer to <a href="https://lunrjs.com/guides/getting_started.html">this guide</a> if you would like to read more information on how to use Lunr.js.</p>
+
+<p>This is the Lunr.js based search in Verummeum:</p>
+
+<pre><code>var lunrIndex, $results, pagesIndex;
+
+function getQueryVariable(variable) {
+    var query = window.location.search.substring(1);
+    var vars = query.split('&amp;');
+
+    for (var i = 0; i &lt; vars.length; i++) {
+        var pair = vars[i].split('=');
+
+        if (pair[0] === variable) {
+            return decodeURIComponent(pair[1].replace(/\+/g, '%20'));
+        }
+    }
+}
+
+var searchTerm = getQueryVariable('query');
+
+// Initialize lunrjs using our generated index file
+function initLunr() {
+    // First retrieve the index file
+    $.getJSON(&quot;/index.json&quot;)
+        .done(function (index) {
+            pagesIndex = index;
+            lunrIndex = lunr(function () {
+                this.field(&quot;title&quot;, { boost: 10 });
+                this.field(&quot;tags&quot;, { boost: 5 });
+                this.field(&quot;summary&quot;);
+                this.ref(&quot;uri&quot;);
+
+                pagesIndex.forEach(function (page) {
+                    this.add(page)
+                }, this)
+            });
+        })
+        .fail(function (jqxhr, textStatus, error) {
+            var err = textStatus + &quot;, &quot; + error;
+            console.error(&quot;Error getting Hugo index file:&quot;, err);
+        });
+}
+
+// Nothing crazy here, just hook up a listener on the input field
+function initUI() {
+    $results = $(&quot;#blog-listing-medium&quot;);
+    $(&quot;#searchinput&quot;).keyup(function () {
+        $results.empty();
+
+        // Only trigger a search when 2 chars. at least have been provided
+        var query = $(this).val();
+        if (query.length &lt; 2) {
+            return;
+        }
+
+        var results = search(query);
+
+        renderResults(results);
+    });
+}
+
+/**
+ * Trigger a search in lunr and transform the result
+ *
+ * @param  {String} query
+ * @return {Array}  results
+ */
+function search(query) {
+    return lunrIndex.search(query, {
+        wildcard: lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING
+    }).map(function (result) {
+        return pagesIndex.filter(function (page) {
+            return page.uri === result.ref;
+        })[0];
+    });
+}
+
+/**
+ * Display the 10 first results
+ *
+ * @param  {Array} results to display
+ */
+function renderResults(results) {
+    if (!results.length) {
+        $results.append(&quot;&lt;p&gt;No results found&lt;/p&gt;&quot;);
+        return;
+    }
+
+
+    results.sort(function (a, b) {
+        return new Date(b.date) - new Date(a.date);
+    });
+
+    // Only show the ten first results
+    results.slice(0, 100).forEach(function (result) {
+
+
+        var $resultstring = &quot;&lt;section class='post'&gt;&quot; +
+            &quot;&lt;div  class='row'&gt;&quot; +
+            &quot;&lt;div class='col-md-4'&gt; &quot; +
+            &quot;&lt;div class='image'&gt;&quot; +
+            &quot;&lt;a href='&quot; + result.uri + &quot;'&gt;&quot; +
+            &quot;&lt;img src='&quot; + result.banner + &quot;' class='img-responsive' alt=''&gt;&quot; +
+            &quot;&lt;/a&gt;&quot; +
+            &quot;&lt;/div&gt;&quot; +
+            &quot;&lt;/div&gt;&quot; +
+            &quot;&lt;div class='col-md-8'&gt;&quot; +
+            &quot;&lt;h2&gt;&lt;a href='&quot; + result.uri + &quot;'&gt;&quot; + result.title + &quot;&lt;/a&gt;&lt;/h2&gt;&quot; +
+            &quot;&lt;div class='clearfix'&gt;&quot; +
+            &quot;&lt;p class='author-category'&gt;&quot;;
+        for (i = 0; i &lt; result.tags.length; i++) {
+            $resultstring += &quot;&lt;a href='/tags/&quot; + result.tags[i] + &quot;'&gt;&quot; + result.tags[i] + &quot;&lt;/a&gt;&quot;;
+            if ((i + 1) &lt; result.tags.length) {
+                $resultstring += &quot;, &quot;;
+            }
+        }
+
+        $resultstring += &quot;&lt;/p&gt;&quot; +
+            &quot;&lt;p class='date-comments'&gt;&quot; +
+            &quot;&lt;a href='&quot; + result.uri + &quot;'&gt;&lt;i class='fa fa-calendar-o'&gt;&lt;/i&gt; &quot; + moment(result.date).format('LL') + &quot;&lt;/a&gt;&quot; +
+            &quot;&lt;/p&gt;&quot; +
+            &quot;&lt;/div&gt;&quot; +
+            &quot;&lt;div class='intro'&gt;&quot; + result.summary + &quot;&lt;/div&gt;&quot; +
+            &quot;&lt;p class='read-more'&gt;&lt;a href='&quot; + result.uri + &quot;' class='btn btn-template-main'&gt;Continue reading&lt;/a&gt;&quot; +
+            &quot;&lt;/p&gt;&quot; +
+            &quot;&lt;/div&gt;&quot; +
+            &quot;&lt;/div&gt;&quot; +
+            &quot;&lt;/section&gt;&quot;;
+
+        var $result = ($resultstring);
+        $results.append($result);
+    });
+}
+
+initLunr();
+
+$(document).ready(function () {
+    initUI();
+});
+</code></pre>
+
+<p><a href="https://github.com/PhilipVis/verummeum/blob/d65013ba1f3ee63da3be171f398aa62a8035d441/assets/js/lunr-search.js">Source on github</a>.</p>
+
+<p>The initLunr() function will retrieve our index.json file on page load. The initUI() will start to listen to the search field, so that when a user starts typing a search, we automatically start searching for matching articles. Finally, when articles are found, the renderResults() fuction will render the articles so that they become visible on the searh page in the results section. I have included this Javascript in a separate file <a href="https://github.com/PhilipVis/verummeum/blob/d65013ba1f3ee63da3be171f398aa62a8035d441/assets/js/lunr-search.js">lunr-search.js</a> which also needs to be added to the HTML with a script tag. Now we have a fully functional search page!</p>
+
+<h2 id="comments">Comments</h2>
+
+<p>I wanted readers of Verummeum to be able to leave comments with feedback and to further discuss the articles. Of course this is also harder to implement on a static website since you are not able to store the comments on a server without running a back-end that would allow you to store and retrieve comments. Again the awesome <a href="https://gohugo.io/content-management/comments">Hugo documentation</a> describes a few alternatives to implement comments on your static Hugo website.</p>
+
+<p>Hugo projects have Disqus integrated out of the box. If you would like to make use of the Disqus comment service, all you have to do is enable it in the config.toml configuration file. I had encountered Disqus before on other websites and used it to post comments, so I did consider using Disqus as the comment system on Verummeum. The reason I decided not to use Disqus was that I had read about issues with the service, like advertisements appearing on websites in their Disqus comments section and comments wrongfully being flagged as spam. I wanted to use a comment system without advertisements or tracking, so that my reader&rsquo;s privacy would be respected, and their comments would not be censored or wrongfully marked as spam.</p>
+
+<p>Luckily I found a link to <a href="https://utteranc.es/">Utterances</a> in the Hugo documentation. Utterances is a free and open source comments widget built on GitHub issues. Since Utterances is open source, I can guarantee that my readers are not being tracked, or that advertisements will never unknowingly appear on Verummeum. All comments are stored in github issues in the Verummeum github repository. When a comment is posted on one of our articles, Utterances will check if an issue already exists for that article, and will either create a new issue or add the comment to the existing issue for that article. This means our comments are not locked into a service like Disqus, but are freely and openly available.</p>
+
+<h3 id="how-to-enable-comments-using-utterances">How to enable comments using Utterances</h3>
+
+<p>To enable comments with Utterances on your websites, two steps need to be taken. Start by browsing to the <a href="https://utteranc.es/">Utterances website</a> and follow the instructions to generate a script tag that will need to be added to the HTML of your website, in the location you would like the comments to be shown.</p>
+
+<pre><code>&lt;div id=&quot;comments&quot;&gt;
+    &lt;script src=&quot;https://utteranc.es/client.js&quot;
+        repo=&quot;PhilipVis/philipvis.github.io&quot;
+        issue-term=&quot;pathname&quot;
+        crossorigin=&quot;anonymous&quot;
+        async&gt;
+    &lt;/script&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p><a href="https://github.com/PhilipVis/verummeum/blob/master/layouts/_default/single.html#L56-L63">Source on github</a>.</p>
+
+<p>Now install the <a href="https://github.com/apps/utterances">Utterances Github widget</a> in the same Github repository you added a link to in the script tag, so that Utterances will be able to create issues in your Github repository. This repository must be public so that your readers can view the issues and comments.</p>
+
+<p>Congratulations! Now you have a working Utterances comment section on your website! Feel free to leave a comment on this article if you would like to try out posting comments using Utterances.</p>
+
+<h2 id="image-viewer">Image viewer</h2>
+
+<p>Hugo provides <a href="https://gohugo.io/content-management/shortcodes">shortcodes</a> to easily add content like images and videos to markdown files, or to do other things where simple markdown falls short. Essentially, a shortcode allows the use of custom HTML inside markdown files. I found the <a href="https://gohugo.io/content-management/shortcodes/#figure">figure shortcode</a> which can be used to include images in your markdown to be a bit lacking. I wanted to be able to show thumbnails inside my articles on which the reader can click to see the full sized version of the image.</p>
+
+<p>That is why I chose to integrate <a href="http://fancyapps.com/fancybox/3/">Fancybox</a> into Verummeum. Fancybox is a Javascript image viewer library that allows you to easily show thumbnails that will open the full image on click. The Fancybox image viewer also allows the reader to scroll through all images on a page. If you would like to see this image viewer in action, you can visit one of our <a href="https://verummeum.com/tags/review/">reviews</a> which typically contain a lot of images.</p>
+
+<h3 id="how-to-use-the-fancybox-image-viewer">How to use the Fancybox image viewer</h3>
+
+<p>To start using the Fancybox image viewer, you will first need to include the Fancybox library in your project. Either download the source from the <a href="http://fancyapps.com/fancybox/3/">Fancybox website</a> or use a CDN link, and add the Fancybox library to your HTML. Note that both a CSS and Javascript file will need to be added.</p>
+
+<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.css&quot; /&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+
+<p>Because we would like to make use of the Fancybox library for images inside the content of our articles, we want to be able to use it in a shortcode, similar to the figure shortcode Hugo provides by default. Luckily Hugo allows you to create [custom shortcodes](<a href="https://gohugo.io/templates/shortcode-templates/">https://gohugo.io/templates/shortcode-templates/</a>, so we can easily create a custom shortcode to make use of the Fancybox library.</p>
+
+<p>Create a new HTML file in the layouts/shortcodes folder. The name of this file should be the name you want to use the shortcode with. I chose to name my shortcode file image.html. This is the content of the image.html shortcode file:</p>
+
+<pre><code>&lt;a class=&quot;thumbnail-image&quot; data-fancybox=&quot;gallery&quot; href=&quot;{{.Get &quot;big&quot; }}&quot;&gt;&lt;img src=&quot;{{.Get &quot;small&quot; }}&quot; alt=&quot;{{.Get &quot;alt&quot; }}&quot;&gt;&lt;/a&gt;
+</code></pre>
+
+<p><a href="https://github.com/PhilipVis/verummeum/blob/master/layouts/shortcodes/image.html">Source on github</a>.</p>
+
+<p>The &lsquo;big&rsquo;, &lsquo;small&rsquo; and &lsquo;alt&rsquo; variables are custom values we can fill in when using the shortcode. The &lsquo;small&rsquo; variable will contain the url to the thumbnail image, the &lsquo;big&rsquo; variable will contain the url to the full-sized image and the &lsquo;alt&rsquo; variable can be used to add a value to the &lsquo;alt&rsquo; tag of the thumbnail image.</p>
+
+<p>This is an example of how the custom image shortcode can be used in a markdown file:</p>
+
+<pre><code>{{&lt; image small=&quot;/img/blog/2018/voyager/voyager_live_desktop_thumbnail.jpg&quot; big=&quot;/img/blog/2018/voyager/voyager_live_desktop.jpg&quot; alt=&quot;Voyager Live desktop&quot; &gt;}}
+</code></pre>
+
+<p>You should now have a fully functioning image viewer, usable from inside your markdown files.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Since I start investigating the possibilities of what one can build using Hugo and other static site generators, I have learned that a static website is not as limiting as I expected. In this article I have discussed three of the features that helped me decide a static website was the right choice for Verummeum. I hope I have sparked your interest in Hugo and static site generators!</p>
+                        </div>
+
+                        <div id="post-share">
+                            <h3>Share</h3>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://verummeum.com/%2fhugo-advanced-features%2f" target="_blank">
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </a>
+                            <a href="https://plus.google.com/share?url=https://verummeum.com/%2fhugo-advanced-features%2f" target="_blank">
+                                <i class="fab fa-google-plus-square fa-2x"></i>
+                            </a>
+                            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://verummeum.com/%2fhugo-advanced-features%2f" target="_blank">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','https://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">
+                                <i class="fab fa-pinterest-square fa-2x"></i>
+                            </a>
+
+                            <a href="http://reddit.com/submit?url=https://verummeum.com/%2fhugo-advanced-features%2f&amp;title=Search%2c%20comments%20and%20an%20image%20viewer%20with%20Hugo" target="_blank">
+                                <i class="fab fa-reddit-square fa-2x"></i>
+                            </a>
+
+                            <a href="https://twitter.com/share?url=https://verummeum.com/%2fhugo-advanced-features%2f&amp;text=Search%2c%20comments%20and%20an%20image%20viewer%20with%20Hugo&amp;hashtags=verummeum" target="_blank">
+                                <i class="fab fa-twitter-square fa-2x"></i>
+                            </a>
+                        </div>
+
+                        <div id="comments">
+                            <script src="https://utteranc.es/client.js"
+                                repo="PhilipVis/philipvis.github.io"
+                                issue-term="pathname"
+                                crossorigin="anonymous"
+                                async>
+                            </script>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <footer id="footer">
+    <div class="container">
+
+        <div class="col-sm-6">
+            <h4>Subscribe</h4>
+
+            <a href="/index.xml">RSS</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+
+        <div class="col-sm-6">
+
+            <h4>Navigate</h4>
+
+            <div class="navigate">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <a href="/">Home</a>
+                        <a href="/about">About</a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="/contact">Contact</a>
+                        <a href="/search">Search</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+
+    </div>
+
+</footer>
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            <p class="pull-left">
+                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> &nbsp;-&nbsp; VERUMMEUM 2018</p>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+<script src="https://verummeum.com/js/bundle.min.313f8093a7738023b380fc5298e52e4c2c5c2eeb8caf18fc53d84c55c0e80f6feba1ffa96ecc15f778a974dc2a4d9ce9cfc162469d1e90ada5b106cc56928133.js" integrity="sha512-MT&#43;Ak6dzgCOzgPxSmOUuTCxcLuuMrxj8U9hMVcDoD2/rof&#43;pbswV93ipdNwqTZzpz8FiRp0ekK2lsQbMVpKBMw=="></script>
+
+
+</body>
+
+</html>
