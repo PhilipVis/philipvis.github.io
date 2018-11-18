@@ -19,9 +19,7 @@
       <guid>https://verummeum.com/kde-neon-review-2018/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://neon.kde.org/&#34;&gt;KDE Neon&lt;/a&gt; recently released a new version of their Linux distribution, which I have been testing for the past week. I would like to share my experience with you in this article.&lt;/p&gt;
 
-&lt;p&gt;The distribution is based on Ubuntu 18.04 &amp;ldquo;Bionic Beaver&amp;rdquo;, the latest long-term support &lt;a href=&#34;https://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; release. What makes KDE Neon an interesting and unique project is that they provide a rolling release of the KDE Plasma desktop environment on top of the stable Ubuntu LTS base. Let&amp;rsquo;s find out if this mix of a stable base with a rolling KDE environment is a winning combination!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;The distribution is based on Ubuntu 18.04 &amp;ldquo;Bionic Beaver&amp;rdquo;, the latest long-term support &lt;a href=&#34;https://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; release. What makes KDE Neon an interesting and unique project is that they provide a rolling release of the KDE Plasma desktop environment on top of the stable Ubuntu LTS base. Let&amp;rsquo;s find out if this mix of a stable base with a rolling KDE environment is a winning combination!&lt;/p&gt;</description>
     </item>
     
   </channel>

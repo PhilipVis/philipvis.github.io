@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kde Connect on Verummeum</title>
+    <link>https://verummeum.com/tags/kde-connect/</link>
+    <description>Recent content in Kde Connect on Verummeum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Nov 2018 16:22:00 +0200</lastBuildDate>
+    
+        <atom:link href="https://verummeum.com/tags/kde-connect/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>KDE Connect: Let Android and Linux devices communicate</title>
+      <link>https://verummeum.com/kde-connect/</link>
+      <pubDate>Sun, 18 Nov 2018 16:22:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/kde-connect/</guid>
+      <description>&lt;p&gt;Are you interested in receiving Android notifications on your Linux desktop or are you in need of an easy way to transfer data between Android and Linux devices? In this article we will take a look at &lt;a href=&#34;https://community.kde.org/KDEConnect&#34;&gt;KDE Connect&lt;/a&gt;, a free and &lt;a href=&#34;https://github.com/KDE/kdeconnect-kde&#34;&gt;open-source&lt;/a&gt; project that allows you to easily set up communication between Android and Linux devices.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

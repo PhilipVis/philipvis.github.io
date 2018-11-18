@@ -19,8 +19,7 @@
       <guid>https://verummeum.com/bluestar-review-2018/</guid>
       <description>&lt;p&gt;As some of you know, installing &lt;a href=&#34;https://www.archlinux.org/&#34;&gt;Arch Linux&lt;/a&gt; can be a daunting task. Let&amp;rsquo;s take a look at &lt;a href=&#34;https://sourceforge.net/projects/bluestarlinux/&#34;&gt;Bluestar Linux&lt;/a&gt;, a rolling release Linux distribution that tries to make Arch Linux easier to install by providing a full-featured Arch based system.&lt;/p&gt;
 
-&lt;p&gt;The distribution sports the latest KDE Plasma desktop and is available in three editions; desktop, deskpro and developer. The installation medium for these three editions is the same, you will just have to choose an edition at the start of the installation. The differences between these editions are limited to the applications that will be installed. In this article we will take a look at the desktop edition.&lt;br /&gt;
-&lt;/p&gt;</description>
+&lt;p&gt;The distribution sports the latest KDE Plasma desktop and is available in three editions; desktop, deskpro and developer. The installation medium for these three editions is the same, you will just have to choose an edition at the start of the installation. The differences between these editions are limited to the applications that will be installed. In this article we will take a look at the desktop edition.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -31,9 +30,7 @@
       <guid>https://verummeum.com/endless-os-review-2018/</guid>
       <description>&lt;p&gt;Last week we compared three &lt;a href=&#34;https://verummeum.com/portable-package-formats/&#34;&gt;distribution independent package formats&lt;/a&gt;, so I thought it would be interesting to visit a Linux distribution that relies solely on a distribution independent packages to run desktop applications. Meet &lt;a href=&#34;https://endlessos.com/&#34;&gt;Endless OS&lt;/a&gt;, a Debian based Linux distribution with a custom desktop environment &amp;ldquo;EOS Shell&amp;rdquo; based on GNOME.&lt;/p&gt;
 
-&lt;p&gt;Different from most Linux distributions, the root file system of Endless OS is read-only and managed by &lt;a href=&#34;https://ostree.readthedocs.io/en/latest/&#34;&gt;OSTree&lt;/a&gt;. This allows the system to easily and continuously be updated without the need for a system upgrade or reinstall after a major release. On top of this read-only system, Endless OS makes use of Flatpak to manage the system and user applications.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Different from most Linux distributions, the root file system of Endless OS is read-only and managed by &lt;a href=&#34;https://ostree.readthedocs.io/en/latest/&#34;&gt;OSTree&lt;/a&gt;. This allows the system to easily and continuously be updated without the need for a system upgrade or reinstall after a major release. On top of this read-only system, Endless OS makes use of Flatpak to manage the system and user applications.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -44,9 +41,7 @@
       <guid>https://verummeum.com/kde-neon-review-2018/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://neon.kde.org/&#34;&gt;KDE Neon&lt;/a&gt; recently released a new version of their Linux distribution, which I have been testing for the past week. I would like to share my experience with you in this article.&lt;/p&gt;
 
-&lt;p&gt;The distribution is based on Ubuntu 18.04 &amp;ldquo;Bionic Beaver&amp;rdquo;, the latest long-term support &lt;a href=&#34;https://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; release. What makes KDE Neon an interesting and unique project is that they provide a rolling release of the KDE Plasma desktop environment on top of the stable Ubuntu LTS base. Let&amp;rsquo;s find out if this mix of a stable base with a rolling KDE environment is a winning combination!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;The distribution is based on Ubuntu 18.04 &amp;ldquo;Bionic Beaver&amp;rdquo;, the latest long-term support &lt;a href=&#34;https://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; release. What makes KDE Neon an interesting and unique project is that they provide a rolling release of the KDE Plasma desktop environment on top of the stable Ubuntu LTS base. Let&amp;rsquo;s find out if this mix of a stable base with a rolling KDE environment is a winning combination!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -57,9 +52,7 @@
       <guid>https://verummeum.com/siduction-review-2018/</guid>
       <description>&lt;p&gt;The past week I tried to test &lt;a href=&#34;https://news.siduction.org/&#34;&gt;Siduction&lt;/a&gt; 2018.3, with the Cinnamon desktop environment. Siduction is a rolling-release Linux distribution based on Debian unstable, also known as Debian sid.&lt;/p&gt;
 
-&lt;p&gt;Siduction is available with many different desktop environments, namely KDE, LXQt, GNOME, Cinnamon, MATE, Xfce, Lxde, Xorg and noX. I chose to test the Cinnamon desktop because I have only used Cinnamon in combination with Linux Mint before, on which it ran very well, and I&amp;rsquo;d like to see how it performs on another Linux distribution.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Siduction is available with many different desktop environments, namely KDE, LXQt, GNOME, Cinnamon, MATE, Xfce, Lxde, Xorg and noX. I chose to test the Cinnamon desktop because I have only used Cinnamon in combination with Linux Mint before, on which it ran very well, and I&amp;rsquo;d like to see how it performs on another Linux distribution.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -70,8 +63,7 @@
       <guid>https://verummeum.com/voyager-live-review-2018/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://voyagerlive.org/&#34;&gt;Voyager Live&lt;/a&gt; is a Xubuntu based Linux distribution, offering a heavily themed XFCE desktop. This distribution aims to deliver the best user experience by providing an aesthetically pleasing and immersive desktop environment.&lt;/p&gt;
 
-&lt;p&gt;The latest release of Voyager Live is based on the 18.04 Bionic Beaver long term support release of Xubuntu which is supported for 3 years. This is the version we will take a look at in this article.
-&lt;/p&gt;</description>
+&lt;p&gt;The latest release of Voyager Live is based on the 18.04 Bionic Beaver long term support release of Xubuntu which is supported for 3 years. This is the version we will take a look at in this article.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -82,8 +74,7 @@
       <guid>https://verummeum.com/pclinuxos-review-2018/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.pclinuxos.com/&#34;&gt;PCLinuxOS&lt;/a&gt; is a rolling release Linux distribution, offering a KDE and a MATE desktop version. Besides these official versions, other community maintained flavors for other desktop environments are available. This review is based on the KDE version of PCLinuxOS.&lt;/p&gt;
 
-&lt;p&gt;The distribution is based on Mandriva Linux and uses RPM packages. It is a rolling release distribution that favors stability over providing bleeding edge software.
-&lt;/p&gt;</description>
+&lt;p&gt;The distribution is based on Mandriva Linux and uses RPM packages. It is a rolling release distribution that favors stability over providing bleeding edge software.&lt;/p&gt;</description>
     </item>
     
   </channel>
