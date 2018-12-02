@@ -6,10 +6,19 @@
     <description>Recent content in Guide on Verummeum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Nov 2018 16:22:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 02 Dec 2018 20:32:00 +0200</lastBuildDate>
     
         <atom:link href="https://verummeum.com/categories/guide/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nvidia Optimus and Linux</title>
+      <link>https://verummeum.com/nvidia-optimus-2018/</link>
+      <pubDate>Sun, 02 Dec 2018 20:32:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/nvidia-optimus-2018/</guid>
+      <description>&lt;p&gt;A lot of laptops have both an onboard Intel graphics card for better battery life and a discrete Nvidia graphics card for better gaming performance. These laptops are called &amp;ldquo;Optimus laptops&amp;rdquo; because they make use of the Nvidia Optimus technology. I personally have such a laptop, and the past few weeks I have tested the different support options for Optimus laptops in Linux. In this article I will provide an overview of the three main technologies that are available for Linux Optimus laptops.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>KDE Connect: Let Android and Linux devices communicate</title>
