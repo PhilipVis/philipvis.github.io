@@ -129,14 +129,14 @@
   </url>
   
   <url>
-    <loc>https://verummeum.com/tags/guide/</loc>
-    <lastmod>2018-11-18T16:22:00+02:00</lastmod>
+    <loc>https://verummeum.com/categories/guide/</loc>
+    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://verummeum.com/categories/guide/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+    <loc>https://verummeum.com/tags/guide/</loc>
+    <lastmod>2018-11-18T16:22:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -195,13 +195,13 @@
   </url>
   
   <url>
-    <loc>https://verummeum.com/tags/review/</loc>
+    <loc>https://verummeum.com/categories/review/</loc>
     <lastmod>2018-12-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://verummeum.com/categories/review/</loc>
+    <loc>https://verummeum.com/tags/review/</loc>
     <lastmod>2018-12-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
