@@ -6,10 +6,21 @@
     <description>Recent content in Blogs on Verummeum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Dec 2018 20:32:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://verummeum.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deepin 15.8 Review</title>
+      <link>https://verummeum.com/deepin-review-2018/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://verummeum.com/deepin-review-2018/</guid>
+      <description>&lt;p&gt;In this article we&amp;rsquo;ll take a look at a Linux distribution originating from China. The distribution is called &lt;a href=&#34;https://www.deepin.org&#34;&gt;Deepin Linux&lt;/a&gt; and it is based on Debian&amp;rsquo;s unstable branch. The Linux distribution only has one desktop version, which includes their own unique Deepin desktop environment.&lt;/p&gt;
+
+&lt;p&gt;The purpose of Deepin Linux is to provide an easy to use, reliable and beautiful desktop that meets the needs of most home users. Let&amp;rsquo;s see if this Chinese distribution achieves its goals!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Nvidia Optimus and Linux</title>
@@ -99,7 +110,7 @@
       <pubDate>Sun, 16 Sep 2018 14:25:00 +0200</pubDate>
       
       <guid>https://verummeum.com/hugo-advanced-features/</guid>
-      <description>&lt;p&gt;In a &lt;a href=&#34;https://verummeum.com/how-verummeum-is-build/&#34;&gt;previous article&lt;/a&gt; I wrote about why I chose Hugo, a static site generator, as the framework on which to build Verummeum.&lt;/p&gt;
+      <description>&lt;p&gt;In a &lt;a href=&#34;https://verummeum.com/how-verummeum-is-built/&#34;&gt;previous article&lt;/a&gt; I wrote about why I chose Hugo, a static site generator, as the framework on which to build Verummeum.&lt;/p&gt;
 
 &lt;p&gt;Now I would like to go more in depth on the more advanced features I was able to integrate into Verummeum using Hugo. I hope this guide will be interesting for anyone who would like to know about the possibilities of static site generators in general, and of Hugo specifically. I myself underestimated the capabilities of static site generators until recently when I started doing some research, and I am happy to share what I have learned in this article.&lt;/p&gt;</description>
     </item>

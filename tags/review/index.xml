@@ -6,10 +6,21 @@
     <description>Recent content in Review on Verummeum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Nov 2018 16:35:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://verummeum.com/tags/review/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deepin 15.8 Review</title>
+      <link>https://verummeum.com/deepin-review-2018/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://verummeum.com/deepin-review-2018/</guid>
+      <description>&lt;p&gt;In this article we&amp;rsquo;ll take a look at a Linux distribution originating from China. The distribution is called &lt;a href=&#34;https://www.deepin.org&#34;&gt;Deepin Linux&lt;/a&gt; and it is based on Debian&amp;rsquo;s unstable branch. The Linux distribution only has one desktop version, which includes their own unique Deepin desktop environment.&lt;/p&gt;
+
+&lt;p&gt;The purpose of Deepin Linux is to provide an easy to use, reliable and beautiful desktop that meets the needs of most home users. Let&amp;rsquo;s see if this Chinese distribution achieves its goals!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Bluestar Linux Review</title>
