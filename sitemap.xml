@@ -1,10 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://verummeum.com/blog/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/categories/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/deepin/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/deepin-review-2018/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/linux/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/categories/review/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/review/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/categories/guide/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/nvidia/</loc>
+    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,8 +63,33 @@
   </url>
   
   <url>
+    <loc>https://verummeum.com/tags/optimus/</loc>
+    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/android/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/guide/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/kde-connect/</loc>
+    <lastmod>2018-11-18T16:22:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/kde-connect/</loc>
     <lastmod>2018-11-18T16:22:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/bluestar/</loc>
+    <lastmod>2018-11-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,8 +98,28 @@
   </url>
   
   <url>
+    <loc>https://verummeum.com/tags/endless/</loc>
+    <lastmod>2018-10-21T17:34:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/endless-os-review-2018/</loc>
     <lastmod>2018-10-21T17:34:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/appimage/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/flatpak/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/snap/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,8 +133,33 @@
   </url>
   
   <url>
+    <loc>https://verummeum.com/tags/neon/</loc>
+    <lastmod>2018-10-07T21:43:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/google/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/google-free-android/</loc>
-    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/privacy/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/security/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/siduction/</loc>
+    <lastmod>2018-09-20T15:28:00+02:00</lastmod>
   </url>
   
   <url>
@@ -48,8 +168,28 @@
   </url>
   
   <url>
+    <loc>https://verummeum.com/tags/hugo/</loc>
+    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/hugo-advanced-features/</loc>
     <lastmod>2018-09-16T14:25:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/verummeum/</loc>
+    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/live/</loc>
+    <lastmod>2018-09-09T18:34:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://verummeum.com/tags/voyager/</loc>
+    <lastmod>2018-09-09T18:34:00+02:00</lastmod>
   </url>
   
   <url>
@@ -63,6 +203,11 @@
   </url>
   
   <url>
+    <loc>https://verummeum.com/tags/pclinuxos/</loc>
+    <lastmod>2018-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://verummeum.com/pclinuxos-review-2018/</loc>
     <lastmod>2018-08-25T00:00:00+00:00</lastmod>
   </url>
@@ -72,184 +217,11 @@
   </url>
   
   <url>
-    <loc>https://verummeum.com/tags/android/</loc>
-    <lastmod>2018-11-18T16:22:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/appimage/</loc>
-    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/blog/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/bluestar/</loc>
-    <lastmod>2018-11-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://verummeum.com/contact/</loc>
   </url>
   
   <url>
-    <loc>https://verummeum.com/tags/deepin/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/endless/</loc>
-    <lastmod>2018-10-21T17:34:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/flatpak/</loc>
-    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/google/</loc>
-    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/categories/guide/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/guide/</loc>
-    <lastmod>2018-11-18T16:22:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/hugo/</loc>
-    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/kde-connect/</loc>
-    <lastmod>2018-11-18T16:22:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/linux/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/live/</loc>
-    <lastmod>2018-09-09T18:34:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/neon/</loc>
-    <lastmod>2018-10-07T21:43:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/nvidia/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/optimus/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/pclinuxos/</loc>
-    <lastmod>2018-08-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/privacy/</loc>
-    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/categories/review/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/review/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://verummeum.com/search/</loc>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/security/</loc>
-    <lastmod>2018-09-30T16:20:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/siduction/</loc>
-    <lastmod>2018-09-20T15:28:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/snap/</loc>
-    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/</loc>
-    <lastmod>2018-11-18T16:22:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/verummeum/</loc>
-    <lastmod>2018-09-16T14:25:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://verummeum.com/tags/voyager/</loc>
-    <lastmod>2018-09-09T18:34:00+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
