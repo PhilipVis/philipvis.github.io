@@ -15,7 +15,7 @@
   <meta name="description" content="In this article we take a deeper look into the Bluestar Linux distribution with the KDE desktop environment.">
   
 
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.61.0" />
 
   
   
@@ -78,7 +78,13 @@
                   
                   <li class="dropdown">
                     
-                    <a href="/about/"> about</a>
+                    <a href="/blog/"> blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/art/"> art</a>
                     
                   </li>
                   
@@ -128,92 +134,55 @@
 
 
                         <div id="post-content">
-                            <p>As some of you know, installing <a href="https://www.archlinux.org/">Arch Linux</a> can be a daunting task. Let&rsquo;s take a look at <a href="https://sourceforge.net/projects/bluestarlinux/">Bluestar Linux</a>, a rolling release Linux distribution that tries to make Arch Linux easier to install by providing a full-featured Arch based system.</p>
-
+                            <p>As some of you know, installing <a href="https://www.archlinux.org/">Arch Linux</a> can be a daunting task. Let's take a look at <a href="https://sourceforge.net/projects/bluestarlinux/">Bluestar Linux</a>, a rolling release Linux distribution that tries to make Arch Linux easier to install by providing a full-featured Arch based system.</p>
 <p>The distribution sports the latest KDE Plasma desktop and is available in three editions; desktop, deskpro and developer. The installation medium for these three editions is the same, you will just have to choose an edition at the start of the installation. The differences between these editions are limited to the applications that will be installed. In this article we will take a look at the desktop edition.</p>
-
 <h2 id="installation">Installation</h2>
-
-<p>When booting into the live desktop an error is immediately shown, indicating that the system doesn&rsquo;t have Internet access. I didn&rsquo;t spend time trying to figure out why this error is being shown. I suspect there is just a desktop widget that needs an Internet connection. This is not the best start of my Bluestar Linux journey.</p>
-
+<p>When booting into the live desktop an error is immediately shown, indicating that the system doesn't have Internet access. I didn't spend time trying to figure out why this error is being shown. I suspect there is just a desktop widget that needs an Internet connection. This is not the best start of my Bluestar Linux journey.</p>
 <p><a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar_live_desktop.jpg"><img src="/img/blog/2018/bluestar/bluestar_live_desktop_thumbnail.jpg" alt="Bluestar live desktop"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar_live_desktop_error.jpg"><img src="/img/blog/2018/bluestar/bluestar_live_desktop_error_thumbnail.jpg" alt="Bluestar live desktop error no Internet access"></a></p>
-
 <p>The installer icon is available from the top right corner of the desktop. The installation uses the Calamares installer, which looks nice and is easy to use. In the first installation step you must choose the version (desktop, deskpro or developer) of Bluestar Linux you would like to install. Clicking on the links like &ldquo;Bluestar Support&rdquo; at the bottom of the first step results in an error message.</p>
-
 <p><a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar_install_1.jpg"><img src="/img/blog/2018/bluestar/bluestar_install_1_thumbnail.jpg" alt="Bluestar installer step 1"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar_install_1_error.jpg"><img src="/img/blog/2018/bluestar/bluestar_install_1_error_thumbnail.jpg" alt="Bluestar installer error step 1"></a></p>
-
 <p>The next installation steps cover the location, keyboard, partition and user settings. The partition step has options to install Bluestar Linux next to the currently installed system, on a specific partition or on the whole disk. A manual partitioning tool is also available.</p>
-
 <p><a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar_install_2.jpg"><img src="/img/blog/2018/bluestar/bluestar_install_2_thumbnail.jpg" alt="Bluestar installer step 2"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar_install_3.jpg"><img src="/img/blog/2018/bluestar/bluestar_install_3_thumbnail.jpg" alt="Bluestar installer step 3"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar_install_4.jpg"><img src="/img/blog/2018/bluestar/bluestar_install_4_thumbnail.jpg" alt="Bluestar installer step 4"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar_install_5.jpg"><img src="/img/blog/2018/bluestar/bluestar_install_5_thumbnail.jpg" alt="Bluestar installer step 5"></a></p>
-
 <p>A more unique part of the installer is the &ldquo;Look-and-Feel&rdquo; step. It allows you to choose the splash screen and wallpaper for the KDE Plasma desktop.</p>
-
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar_install_6.jpg"><img src="/img/blog/2018/bluestar/bluestar_install_6_thumbnail.jpg" alt="Bluestar installer step 6"></a>
-
 <p>The installation took about 45 minutes, with most of this time spent on downloading software and updates.</p>
-
 <p><a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar_install_7.jpg"><img src="/img/blog/2018/bluestar/bluestar_install_7_thumbnail.jpg" alt="Bluestar installer step 7"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar_install_8.jpg"><img src="/img/blog/2018/bluestar/bluestar_install_8_thumbnail.jpg" alt="Bluestar installer step 8"></a></p>
-
 <h2 id="first-usage">First Usage</h2>
-
 <p>When booting into my Bluestar Linux installation for the first time, I am immediately greeted by the Internet unavailable error that was also present in the live environment. I also noticed that my installation is using the wrong keyboard configuration, the configuration I selected during the installation process was not applied.</p>
-
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar-first-launch.jpg"><img src="/img/blog/2018/bluestar/bluestar-first-launch_thumbnail.jpg" alt="Bluestar desktop error on startup"></a>
-
-<p>The desktop wallpaper I chose during the installation is applied correctly and is looking great. The Bluestar KDE Plasma desktop has a distinct looking theme, which does look appealing in my eyes. There is a colorful dock at the bottom of the desktop with a selection of applications. At the top of the desktop there&rsquo;s a panel showing the main menu icon, the time, a calculator app and a system load app on the left. On the right there are system icons and notifications. This top panel automatically hides, which I found very annoying. Luckily this can easily be disabled (right click on the panel -&gt; Panel Options -&gt; Configure Panel -&gt; More Settings -&gt; Always Visible). I also preferred to maximize the panel to use the full width of the screen.</p>
-
+<p>The desktop wallpaper I chose during the installation is applied correctly and is looking great. The Bluestar KDE Plasma desktop has a distinct looking theme, which does look appealing in my eyes. There is a colorful dock at the bottom of the desktop with a selection of applications. At the top of the desktop there's a panel showing the main menu icon, the time, a calculator app and a system load app on the left. On the right there are system icons and notifications. This top panel automatically hides, which I found very annoying. Luckily this can easily be disabled (right click on the panel -&gt; Panel Options -&gt; Configure Panel -&gt; More Settings -&gt; Always Visible). I also preferred to maximize the panel to use the full width of the screen.</p>
 <p><a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar-desktop-top-bar.jpg"><img src="/img/blog/2018/bluestar/bluestar-desktop-top-bar_thumbnail.jpg" alt="Bluestar desktop top panel"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar-desktop-top-bar-options.jpg"><img src="/img/blog/2018/bluestar/bluestar-desktop-top-bar-options_thumbnail.jpg" alt="Bluestar desktop top panel options"></a></p>
-
 <p>The KDE System Settings application which allows you to tweak almost anything in KDE is also available in Bluestar Linux. It has a &ldquo;Look And Feel&rdquo; section similar to the Bluestar installer, which allows you to select the background and splash screen for your desktop. There is also an option to &ldquo;Use desktop layout from theme&rdquo;, which just seems to reset the desktop panels and widgets to the default configuration in Bluestar Linux (it restored the auto-hide top panel on my system).</p>
-
 <p><a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar-settings-1.jpg"><img src="/img/blog/2018/bluestar/bluestar-settings-1_thumbnail.jpg" alt="Bluestar system settings"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar-settings-2.jpg"><img src="/img/blog/2018/bluestar/bluestar-settings-2_thumbnail.jpg" alt="Bluestar system settings, use desktop layout option"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar-settings-3.jpg"><img src="/img/blog/2018/bluestar/bluestar-settings-3_thumbnail.jpg" alt="Bluestar system settings applied theme"></a></p>
-
 <h2 id="software-and-gaming">Software and Gaming</h2>
-
 <p>Bluestar Linux provides a large collection of applications. Actually, it installs way too many applications in my opinion. Just for browsing the web, Bluestar Linux installs Chromium, Firefox and Konqueror. For watching movies VLC, SMPlayer, Dragon Player and mpv Media Player are installed. I would have preferred a sensible default for each type of application instead of including all these redundant applications.</p>
-
 <p>To search and install applications you can use the software manager Octopi. Because Bluestar Linux uses the Arch repositories, almost any Linux application or game is available to install on your Bluestar system.</p>
-
 <p><a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar-steam.jpg"><img src="/img/blog/2018/bluestar/bluestar-steam_thumbnail.jpg" alt="Bluestar Octopi search Steam"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar-steam-2.jpg"><img src="/img/blog/2018/bluestar/bluestar-steam-2_thumbnail.jpg" alt="Bluestar Octopi install Steam"></a></p>
-
 <p>Proprietary graphics drivers are not installed automatically by Bluestar Linux. There is also no GUI application installed to manage the graphics drivers. If you would like to install proprietary graphics drivers, your best bet is to follow the instructions on the Arch wiki for <a href="https://wiki.archlinux.org/index.php/NVIDIA">NVIDIA</a> or <a href="https://wiki.archlinux.org/index.php/ATI">ATI</a>.</p>
-
 <h2 id="documentation-and-community">Documentation and Community</h2>
-
-<p>I haven&rsquo;t found any documentation for Bluestar Linux. The best source of information for anyone who wants to run this distribution is probably the <a href="https://wiki.archlinux.org/">Arch Linux wiki</a>, which is very extensive and well written.</p>
-
+<p>I haven't found any documentation for Bluestar Linux. The best source of information for anyone who wants to run this distribution is probably the <a href="https://wiki.archlinux.org/">Arch Linux wiki</a>, which is very extensive and well written.</p>
 <p>The SourceForge page for Bluestar Linux has a <a href="https://sourceforge.net/p/bluestarlinux/discussion/">forum section</a> which you could use to ask for support, but currently this forum only has a single post. Another option is to ask for help on their <a href="https://www.facebook.com/BluestarLinux/">Facebook page</a>, which does seem to get updated regularly.</p>
-
 <h2 id="performance-and-battery">Performance and Battery</h2>
-
 <p>This distribution felt pretty fast and lean. I did experience a few short freezes when opening applications, but besides these few freezes Bluestar was a very performant system to use.</p>
-
 <p>I have included some screenshots of the resource usage of the system without any applications running, except for the system monitor. The memory usage of the system hovered around 640 MB, which is significantly lower compared to my last <a href="https://verummeum.com/endless-os-review-2018/">review of Endless OS</a> with a GNOME based desktop. The CPU usage was mostly caused by the system monitor itself.</p>
-
 <p><a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar-usage-1.jpg"><img src="/img/blog/2018/bluestar/bluestar-usage-1_thumbnail.jpg" alt="Bluestar resource usage"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar-usage-2.jpg"><img src="/img/blog/2018/bluestar/bluestar-usage-2_thumbnail.jpg" alt="Bluestar resource usage"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar-usage-3.jpg"><img src="/img/blog/2018/bluestar/bluestar-usage-3_thumbnail.jpg" alt="Bluestar resource usage"></a></p>
-
 <p>The expected battery life of my fully charged laptop with Bluestar Linux was about 10 hours, which is also a very decent result.</p>
-
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/bluestar/bluestar-battery.jpg"><img src="/img/blog/2018/bluestar/bluestar-battery_thumbnail.jpg" alt="Bluestar battery usage"></a>
-
 <h2 id="conclusion">Conclusion</h2>
-
 <p>Bluestar Linux definitely succeeds in making Arch Linux easier to install. The distribution provides a graphical installer and a colorful KDE plasma desktop with a lot of applications pre-installed. I experienced a few short freezes when starting applications, but overall the distribution was very performant and not too resource hungry.</p>
-
 <p>Documentation for the Bluestar Linux project is sorely lacking. Although the installation of the system is easy, documentation should be provided on how to maintain the system. Anyone who would consider using Bluestar Linux should refer to the Arch wiki to learn how to do things like updating the system and installing graphical drivers.</p>
-
 <p>I would only recommend Bluestar Linux to more advanced Linux users who want to try out Arch Linux without going through the Arch Linux installation process.</p>
                         </div>
 
@@ -221,9 +190,6 @@
                             <h3>Share</h3>
                             <a href="https://www.facebook.com/sharer/sharer.php?u=https://verummeum.com/%2fbluestar-review-2018%2f" target="_blank">
                                 <i class="fab fa-facebook fa-2x"></i>
-                            </a>
-                            <a href="https://plus.google.com/share?url=https://verummeum.com/%2fbluestar-review-2018%2f" target="_blank">
-                                <i class="fab fa-google-plus-square fa-2x"></i>
                             </a>
                             <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://verummeum.com/%2fbluestar-review-2018%2f" target="_blank">
                                 <i class="fab fa-linkedin fa-2x"></i>

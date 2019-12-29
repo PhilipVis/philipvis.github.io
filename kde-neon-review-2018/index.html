@@ -15,7 +15,7 @@
   <meta name="description" content="In this article we take a deeper look into the KDE Neon Linux distribution.">
   
 
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.61.0" />
 
   
   
@@ -78,7 +78,13 @@
                   
                   <li class="dropdown">
                     
-                    <a href="/about/"> about</a>
+                    <a href="/blog/"> blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/art/"> art</a>
                     
                   </li>
                   
@@ -129,71 +135,40 @@
 
                         <div id="post-content">
                             <p><a href="https://neon.kde.org/">KDE Neon</a> recently released a new version of their Linux distribution, which I have been testing for the past week. I would like to share my experience with you in this article.</p>
-
-<p>The distribution is based on Ubuntu 18.04 &ldquo;Bionic Beaver&rdquo;, the latest long-term support <a href="https://www.ubuntu.com/">Ubuntu</a> release. What makes KDE Neon an interesting and unique project is that they provide a rolling release of the KDE Plasma desktop environment on top of the stable Ubuntu LTS base. Let&rsquo;s find out if this mix of a stable base with a rolling KDE environment is a winning combination!</p>
-
+<p>The distribution is based on Ubuntu 18.04 &ldquo;Bionic Beaver&rdquo;, the latest long-term support <a href="https://www.ubuntu.com/">Ubuntu</a> release. What makes KDE Neon an interesting and unique project is that they provide a rolling release of the KDE Plasma desktop environment on top of the stable Ubuntu LTS base. Let's find out if this mix of a stable base with a rolling KDE environment is a winning combination!</p>
 <p>The distribution comes in two flavors, a User Edition designed for everyday users and a Developer Edition designed to test the latest KDE developments. In this article we will dive into the User Edition of KDE Neon.</p>
-
 <h2 id="installation">Installation</h2>
-
 <p>When running KDE Neon it first boots into the live desktop, which has a clean and modern look. There is a single icon on the desktop to start the installation. After briefly exploring the live desktop I jumped right in.</p>
-
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/neon/neon-home-live.jpg"><img src="/img/blog/2018/neon/neon-home-live_thumbnail.jpg" alt="KDE Neon live desktop"></a>
-
-<p>The installer shows a nice overview of the available steps in the installation process on the left. In the first step you can choose your language and there is an option to update the installer. In the second step you can configure your keyboard layout. The third step allows you to connect to a wireless network. This step is automatically skipped if you&rsquo;re already connected to the internet.</p>
-
+<p>The installer shows a nice overview of the available steps in the installation process on the left. In the first step you can choose your language and there is an option to update the installer. In the second step you can configure your keyboard layout. The third step allows you to connect to a wireless network. This step is automatically skipped if you're already connected to the internet.</p>
 <p><a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/neon/neon-install-step-1.jpg"><img src="/img/blog/2018/neon/neon-install-step-1_thumbnail.jpg" alt="KDE Neon install step 1"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/neon/neon-install-step-2.jpg"><img src="/img/blog/2018/neon/neon-install-step-2_thumbnail.jpg" alt="KDE Neon install step 2"></a></p>
-
 <p>During the next step you can select if you would like KDE Neon to download and install the latest updates as part of the installation, and if you would like to install proprietary drivers and media formats. Finally, you can confgure your partitions; There are options to install KDE Neon on the whole disk and to automatically use LVM with or without encryption, or you can choose to manually configure your partitions.</p>
-
 <p><a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/neon/neon-install-step-3.jpg"><img src="/img/blog/2018/neon/neon-install-step-3_thumbnail.jpg" alt="KDE Neon install step 4"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/neon/neon-install-step-4.jpg"><img src="/img/blog/2018/neon/neon-install-step-4_thumbnail.jpg" alt="KDE Neon install step 5"></a></p>
-
 <p>While KDE Neon is being installed on your system you can configure your timezone and your user. The installation finished in about 25 minutes on my older laptop.</p>
-
 <p><a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/neon/neon-install-step-5.jpg"><img src="/img/blog/2018/neon/neon-install-step-5_thumbnail.jpg" alt="KDE Neon install step 6"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/neon/neon-install-step-6.jpg"><img src="/img/blog/2018/neon/neon-install-step-6_thumbnail.jpg" alt="KDE Neon install step 7"></a></p>
-
 <p>So far KDE Neon has left a great impression with a clean and modern live desktop and a pretty complete installer with a nice overview of the steps. I only missed an option to automatically install KDE Neon next to the currently installed OS.</p>
-
 <h2 id="first-usage">First Usage</h2>
-
 <p>When booting into my KDE Neon installation for the first time, a notification immediately appears, letting me know that new updates are available. Clicking on the notification opens up the KDE Discover software center which shows a clear overview of the available updates, divided into system and application updates. The software center can also be user to search and install new applications and to manage the already installed applications. The KDE Discover software center also has support for Flatpak and Snap packages out of the box, these are included in the search results when searching for applications to install.</p>
-
 <p><a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/neon/neon_update_notification.jpg"><img src="/img/blog/2018/neon/neon_update_notification_thumbnail.jpg" alt="KDE Neon update notification"></a>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/neon/neon_update_center.jpg"><img src="/img/blog/2018/neon/neon_update_center_thumbnail.jpg" alt="KDE Neon Discover update center"></a></p>
-
 <p>The KDE System Settings can be used to configure how the KDE Desktop looks and behaves. These settings allow for a lot of customization, probably the most customization of any Linux desktop environment. Even though KDE provides this plethora of customization options, I found the system settings to be pretty easy and intuitive to navigate and configure. Your account details, network settings and hardware can also be configured through the KDE System Settings application.</p>
-
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/neon/neon_system_settings.jpg"><img src="/img/blog/2018/neon/neon_system_settings_thumbnail.jpg" alt="KDE Neon system settings"></a>
-
 <h2 id="software-and-gaming">Software and Gaming</h2>
-
 <p>KDE Neon does not include a lot of software in the default installation. Besides the KDE applications, Firefox is included as the default browser and VLC is installed as the default media player. Because the main purpose of KDE Neon is to showcase the KDE desktop, it makes sense to limit the number of installed applications to a minimum.</p>
-
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/neon/neon_main_menu.jpg"><img src="/img/blog/2018/neon/neon_main_menu_thumbnail.jpg" alt="KDE Neon main menu"></a>
-
-<p>The KDE applications also already cover most of the needed applications to have a functional system. Okular and Gwenview allow you to view most types of documents. Dolphin, the KDE file manager, is probably the application I miss the most when I am working on a desktop other than KDE, because it offers a nice amount of easy accessible configuration options. Finally, there&rsquo;s also the KDE terminal Konsole and the text editor KWrite.</p>
-
+<p>The KDE applications also already cover most of the needed applications to have a functional system. Okular and Gwenview allow you to view most types of documents. Dolphin, the KDE file manager, is probably the application I miss the most when I am working on a desktop other than KDE, because it offers a nice amount of easy accessible configuration options. Finally, there's also the KDE terminal Konsole and the text editor KWrite.</p>
 <p>No games are installed on KDE Neon by default, but because it is based on Ubuntu you can install most major platforms like Steam, Itch and Lutris. You can also find a lot of games through the software center.</p>
-
-<p>The only downside to using KDE Neon as your gaming system is that it doesn&rsquo;t provide a driver manager to easily manage your graphics drivers. Luckily this can be resolved by installing application &lsquo;Software &amp; Updates&rsquo; using the Discover software center. This application does allow you to manage your drivers. I found that KDE Neon performed great as a gaming system.</p>
-
+<p>The only downside to using KDE Neon as your gaming system is that it doesn't provide a driver manager to easily manage your graphics drivers. Luckily this can be resolved by installing application &lsquo;Software &amp; Updates&rsquo; using the Discover software center. This application does allow you to manage your drivers. I found that KDE Neon performed great as a gaming system.</p>
 <a class="thumbnail-image" data-fancybox="gallery" href="/img/blog/2018/neon/neon_driver_manager.jpg"><img src="/img/blog/2018/neon/neon_driver_manager_thumbnail.jpg" alt="KDE Neon driver manager"></a>
-
 <h2 id="documentation-and-community">Documentation and Community</h2>
-
-<p>KDE Neon does not provide documentation specific to the distribution, instead their website links directly to the extensive <a href="https://docs.kde.org/">KDE documentation</a>. Because KDE Neon provides a default KDE desktop, I think this is fine for the desktop but I&rsquo;d have appreciated some documentation to help less experienced users with starting to use and maintain their KDE Neon system. This clearly shows KDE Neon is targeted at more advanced users.</p>
-
-<p>There are a lot of support channels available for KDE Neon though, so I&rsquo;m certain any users could get help through these different channels. The <a href="https://forum.kde.org/viewforum.php?f=309">KDE neon forum</a>, which is a part of the main KDE forum, is pretty active with questions being answered quickly. Besides the forum you can also ask for help on the <a href="irc://irc.freenode.net/#kde-neon">IRC channel</a>, in the <a href="https://telegram.me/kdeneon">Telegram group</a>, <a href="https://www.facebook.com/groups/931803210238672/">Facebook group</a> and <a href="https://plus.google.com/communities/105101838887387505413">Google+ group</a>.</p>
-
+<p>KDE Neon does not provide documentation specific to the distribution, instead their website links directly to the extensive <a href="https://docs.kde.org/">KDE documentation</a>. Because KDE Neon provides a default KDE desktop, I think this is fine for the desktop but I'd have appreciated some documentation to help less experienced users with starting to use and maintain their KDE Neon system. This clearly shows KDE Neon is targeted at more advanced users.</p>
+<p>There are a lot of support channels available for KDE Neon though, so I'm certain any users could get help through these different channels. The <a href="https://forum.kde.org/viewforum.php?f=309">KDE neon forum</a>, which is a part of the main KDE forum, is pretty active with questions being answered quickly. Besides the forum you can also ask for help on the <a href="irc://irc.freenode.net/#kde-neon">IRC channel</a>, in the <a href="https://telegram.me/kdeneon">Telegram group</a>, <a href="https://www.facebook.com/groups/931803210238672/">Facebook group</a> and <a href="https://plus.google.com/communities/105101838887387505413">Google+ group</a>.</p>
 <h2 id="conclusion">Conclusion</h2>
-
-<p>To answer my initial question, I do believe the mix of a stable Ubuntu LTS base with a rolling-release KDE desktop is a great combination! KDE Neon ran stable and always felt fast and responsive. I didn&rsquo;t experience any crashes or other errors that I used to encounter with the KDE desktop environment in the past. KDE seems to really have improved a lot in recent years.</p>
-
+<p>To answer my initial question, I do believe the mix of a stable Ubuntu LTS base with a rolling-release KDE desktop is a great combination! KDE Neon ran stable and always felt fast and responsive. I didn't experience any crashes or other errors that I used to encounter with the KDE desktop environment in the past. KDE seems to really have improved a lot in recent years.</p>
 <p>Although the purpose of KDE Neon is to showcase the KDE desktop and to help with the development of KDE, I would definitely consider it as one of the best Linux distribution choices currently available, both for work and entertainment.</p>
-
 <p>KDE Neon does not include a lot of applications in the installation, so if you want an office suite, an image editor or even a driver manager out of the box, then this is not a Linux distribution you should consider. Due to the lack of a basic manual I would also not recommend KDE Neon to anyone without prior Linux experience.</p>
                         </div>
 
@@ -201,9 +176,6 @@
                             <h3>Share</h3>
                             <a href="https://www.facebook.com/sharer/sharer.php?u=https://verummeum.com/%2fkde-neon-review-2018%2f" target="_blank">
                                 <i class="fab fa-facebook fa-2x"></i>
-                            </a>
-                            <a href="https://plus.google.com/share?url=https://verummeum.com/%2fkde-neon-review-2018%2f" target="_blank">
-                                <i class="fab fa-google-plus-square fa-2x"></i>
                             </a>
                             <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://verummeum.com/%2fkde-neon-review-2018%2f" target="_blank">
                                 <i class="fab fa-linkedin fa-2x"></i>

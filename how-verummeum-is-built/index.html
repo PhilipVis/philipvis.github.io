@@ -15,7 +15,7 @@
   <meta name="description" content="Find out how Verummeum is built and why we choose to built it with Hugo, the static site generator.">
   
 
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.61.0" />
 
   
   
@@ -78,7 +78,13 @@
                   
                   <li class="dropdown">
                     
-                    <a href="/about/"> about</a>
+                    <a href="/blog/"> blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/art/"> art</a>
                     
                   </li>
                   
@@ -130,39 +136,40 @@
                         <div id="post-content">
                             <p>Before I started building Verummeum I compared a number of different frameworks and content management systems.
 After researching the advantages and disadvantages of the different choices available, I finally decided to create Verummeum using Hugo.</p>
-
 <p>Before I made the choice to use Hugo I first decided that I wanted to create Verummeum as a static website. A static website has a number of advantages compared to a dynamic website.</p>
-
 <ul>
-<li><p><strong>Performance</strong>: A static website does not need to call a database to retrieve data. These calls slow down a dynamic website compared to a static website. Another advantage of not relying on server calls is that the complete website can be cached by a CDN like Cloudflare so that it can be served from a server close to the visitor, improving the load time of the static website even more.</p></li>
-
-<li><p><strong>Security</strong>: Because a dynamic website typically requires database access or user interaction and authentication, dynamic websites have a much larger attack surface compared to static websites.</p></li>
-
-<li><p><strong>Hosting</strong>: Creating Verummeum as a static website allowed me to host Verummeum on Github Pages. To host a dynamic website I would have needed to rent server space that could serve the dynamic website. Github pages is a great alternative for static websites, certainly if you already plan to make the source code of your website available to the public.</p></li>
-
-<li><p><strong>Content versioning</strong>: Because the entire static website from configuration to content is file-based, you can easily keep the entire website under version control. That is why the complete Verummeum source including content is available on <a href="https://github.com/PhilipVis/Verummeum">Github</a>.</p></li>
+<li>
+<p><strong>Performance</strong>: A static website does not need to call a database to retrieve data. These calls slow down a dynamic website compared to a static website. Another advantage of not relying on server calls is that the complete website can be cached by a CDN like Cloudflare so that it can be served from a server close to the visitor, improving the load time of the static website even more.</p>
+</li>
+<li>
+<p><strong>Security</strong>: Because a dynamic website typically requires database access or user interaction and authentication, dynamic websites have a much larger attack surface compared to static websites.</p>
+</li>
+<li>
+<p><strong>Hosting</strong>: Creating Verummeum as a static website allowed me to host Verummeum on Github Pages. To host a dynamic website I would have needed to rent server space that could serve the dynamic website. Github pages is a great alternative for static websites, certainly if you already plan to make the source code of your website available to the public.</p>
+</li>
+<li>
+<p><strong>Content versioning</strong>: Because the entire static website from configuration to content is file-based, you can easily keep the entire website under version control. That is why the complete Verummeum source including content is available on <a href="https://github.com/PhilipVis/Verummeum">Github</a>.</p>
+</li>
 </ul>
-
 <p>Of course there are also disadvantages to static websites. They take more time to set up initially, because you will have to learn the build process of the static site generator of your choice. For someone without experience in web development adapting a static website will be more difficult because static site generators generally do not offer a graphical admin UI to edit the website and manage the content. A dynamic website is also the better choice when you want to build a more complex website that requires user authentication or interaction.</p>
-
 <h2 id="hugo-and-static-site-generators">Hugo and static site generators</h2>
-
-<p>For the above reasons I decided to create Verummeum as a static website. Luckily there are tools to help you build a static website, so that you don&rsquo;t have to write your complete website from scratch. These tools will also help you with creating content for your static website, for example by supporting content written in Markdown and data stored as JSON. These tools are called static site generators.</p>
-
+<p>For the above reasons I decided to create Verummeum as a static website. Luckily there are tools to help you build a static website, so that you don't have to write your complete website from scratch. These tools will also help you with creating content for your static website, for example by supporting content written in Markdown and data stored as JSON. These tools are called static site generators.</p>
 <p>As you can see <a href="https://www.staticgen.com/">here</a>, there are a number of static site generators available. Because I had no experience using a static site generator before creating Verummeum, I compared the most popular frameworks and finally decided to use Hugo.</p>
-
 <p><a href="https://gohugo.io/">Hugo</a> is an open source static site generator written in Go. These are the main reasons I chose to use Hugo over other static site generators:</p>
-
 <ul>
-<li><p><strong>Documentation</strong>: I found the <a href="https://gohugo.io/documentation/">Hugo documentation</a> to be clearly written and very thorough. It contained all the information I needed to start building Verummeum.</p></li>
-
-<li><p><strong>Speed</strong>: Because Hugo is written in Go, it boasts to be one of the fastest static site generators in terms of actually building a static website from your source project. If you view for example <a href="https://forestry.io/blog/hugo-vs-jekyll-benchmark/">this benchmark</a> by Forestry, you&rsquo;ll see that the difference compared to Jekyll, another popular static site generator, is very significant.</p></li>
-
-<li><p><strong>No plug-ins</strong>: Instead of relying on plug-ins to add features like most other frameworks, the Hugo framework already contains all the tools needed to build a website like Verummeum out of the box.</p></li>
-
-<li><p><strong>Open-source</strong>: The Hugo project is completely open-source! View the source code <a href="https://github.com/gohugoio/hugo">here</a>.</p></li>
+<li>
+<p><strong>Documentation</strong>: I found the <a href="https://gohugo.io/documentation/">Hugo documentation</a> to be clearly written and very thorough. It contained all the information I needed to start building Verummeum.</p>
+</li>
+<li>
+<p><strong>Speed</strong>: Because Hugo is written in Go, it boasts to be one of the fastest static site generators in terms of actually building a static website from your source project. If you view for example <a href="https://forestry.io/blog/hugo-vs-jekyll-benchmark/">this benchmark</a> by Forestry, you'll see that the difference compared to Jekyll, another popular static site generator, is very significant.</p>
+</li>
+<li>
+<p><strong>No plug-ins</strong>: Instead of relying on plug-ins to add features like most other frameworks, the Hugo framework already contains all the tools needed to build a website like Verummeum out of the box.</p>
+</li>
+<li>
+<p><strong>Open-source</strong>: The Hugo project is completely open-source! View the source code <a href="https://github.com/gohugoio/hugo">here</a>.</p>
+</li>
 </ul>
-
 <p>In the coming weeks I will write a more in-depth article on how the different features of Verummeum, like the search page and the comments section, are created.</p>
                         </div>
 
@@ -170,9 +177,6 @@ After researching the advantages and disadvantages of the different choices avai
                             <h3>Share</h3>
                             <a href="https://www.facebook.com/sharer/sharer.php?u=https://verummeum.com/%2fhow-verummeum-is-built%2f" target="_blank">
                                 <i class="fab fa-facebook fa-2x"></i>
-                            </a>
-                            <a href="https://plus.google.com/share?url=https://verummeum.com/%2fhow-verummeum-is-built%2f" target="_blank">
-                                <i class="fab fa-google-plus-square fa-2x"></i>
                             </a>
                             <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://verummeum.com/%2fhow-verummeum-is-built%2f" target="_blank">
                                 <i class="fab fa-linkedin fa-2x"></i>

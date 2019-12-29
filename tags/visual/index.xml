@@ -1,0 +1,155 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>visual on Verummeum</title>
+    <link>https://verummeum.com/tags/visual/</link>
+    <description>Recent content in visual on Verummeum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://verummeum.com/tags/visual/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Autumn Intensity</title>
+      <link>https://verummeum.com/autumn-intensity/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://verummeum.com/autumn-intensity/</guid>
+      <description>Autumn Intensity is a generative artwork made using Processing.
+ Variations on this work These are a few interesting alternatives using different variations of the same code used to generate the artwork above.
+       
+Video This video shows how the artwork is generated.
+  </description>
+    </item>
+    
+    <item>
+      <title>Deepin 15.8 Review</title>
+      <link>https://verummeum.com/deepin-review-2018/</link>
+      <pubDate>Sun, 16 Dec 2018 16:04:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/deepin-review-2018/</guid>
+      <description>&lt;p&gt;In this article we&#39;ll take a look at a Linux distribution originating from China. The distribution is called &lt;a href=&#34;https://www.deepin.org&#34;&gt;Deepin Linux&lt;/a&gt; and it&#39;s based on Debian&#39;s unstable branch. The Linux distribution only has one version with their own Deepin desktop environment.&lt;/p&gt;
+&lt;p&gt;The purpose of Deepin Linux is to provide an easy to use, reliable and beautiful desktop that meets the needs of most home users. Let&#39;s see if this Chinese distribution achieves its goals!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nvidia Optimus and Linux</title>
+      <link>https://verummeum.com/nvidia-optimus-2018/</link>
+      <pubDate>Sun, 02 Dec 2018 20:32:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/nvidia-optimus-2018/</guid>
+      <description>&lt;p&gt;A lot of laptops have both an onboard Intel graphics card for better battery life and a discrete Nvidia graphics card for better gaming performance. These laptops are called &amp;ldquo;Optimus laptops&amp;rdquo; because they make use of the Nvidia Optimus technology. I personally have such a laptop, and the past few weeks I have tested the different support options for Optimus laptops in Linux. In this article I will provide an overview of the three main technologies that are available for Linux Optimus laptops.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>KDE Connect: Let Android and Linux devices communicate</title>
+      <link>https://verummeum.com/kde-connect/</link>
+      <pubDate>Sun, 18 Nov 2018 16:22:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/kde-connect/</guid>
+      <description>&lt;p&gt;Are you interested in receiving Android notifications on your Linux desktop or are you in need of an easy way to transfer data between Android and Linux devices? In this article we will take a look at &lt;a href=&#34;https://community.kde.org/KDEConnect&#34;&gt;KDE Connect&lt;/a&gt;, a free and &lt;a href=&#34;https://github.com/KDE/kdeconnect-kde&#34;&gt;open-source&lt;/a&gt; project that allows you to easily set up communication between Android and Linux devices.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bluestar Linux Review</title>
+      <link>https://verummeum.com/bluestar-review-2018/</link>
+      <pubDate>Sun, 04 Nov 2018 16:35:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/bluestar-review-2018/</guid>
+      <description>&lt;p&gt;As some of you know, installing &lt;a href=&#34;https://www.archlinux.org/&#34;&gt;Arch Linux&lt;/a&gt; can be a daunting task. Let&#39;s take a look at &lt;a href=&#34;https://sourceforge.net/projects/bluestarlinux/&#34;&gt;Bluestar Linux&lt;/a&gt;, a rolling release Linux distribution that tries to make Arch Linux easier to install by providing a full-featured Arch based system.&lt;/p&gt;
+&lt;p&gt;The distribution sports the latest KDE Plasma desktop and is available in three editions; desktop, deskpro and developer. The installation medium for these three editions is the same, you will just have to choose an edition at the start of the installation. The differences between these editions are limited to the applications that will be installed. In this article we will take a look at the desktop edition.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Endless OS Review</title>
+      <link>https://verummeum.com/endless-os-review-2018/</link>
+      <pubDate>Sun, 21 Oct 2018 17:34:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/endless-os-review-2018/</guid>
+      <description>&lt;p&gt;Last week we compared three &lt;a href=&#34;https://verummeum.com/portable-package-formats/&#34;&gt;distribution independent package formats&lt;/a&gt;, so I thought it would be interesting to visit a Linux distribution that relies solely on a distribution independent packages to run desktop applications. Meet &lt;a href=&#34;https://endlessos.com/&#34;&gt;Endless OS&lt;/a&gt;, a Debian based Linux distribution with a custom desktop environment &amp;ldquo;EOS Shell&amp;rdquo; based on GNOME.&lt;/p&gt;
+&lt;p&gt;Different from most Linux distributions, the root file system of Endless OS is read-only and managed by &lt;a href=&#34;https://ostree.readthedocs.io/en/latest/&#34;&gt;OSTree&lt;/a&gt;. This allows the system to easily and continuously be updated without the need for a system upgrade or reinstall after a major release. On top of this read-only system, Endless OS makes use of Flatpak to manage the system and user applications.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Snap, Flatpak and AppImage, package formats compared</title>
+      <link>https://verummeum.com/portable-package-formats/</link>
+      <pubDate>Sun, 14 Oct 2018 22:27:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/portable-package-formats/</guid>
+      <description>&lt;p&gt;In recent years, three different distribution independent package formats have gained a lot of popularity. There are already a few Linux distributions like &lt;a href=&#34;https://verummeum.com/endless-os-review-2018/&#34;&gt;Endless OS&lt;/a&gt; and &lt;a href=&#34;https://silverblue.fedoraproject.org/&#34;&gt;Fedora Silverblue&lt;/a&gt; that depend solely on distribution independent packages to run desktop applications. Are these package formats ready to become main packages formats for Linux distributions?&lt;/p&gt;
+&lt;p&gt;In this article we will take a look at the advantages and disadvantages of each package format individually, and of distribution independent package formats in general.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>KDE Neon review</title>
+      <link>https://verummeum.com/kde-neon-review-2018/</link>
+      <pubDate>Sun, 07 Oct 2018 21:43:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/kde-neon-review-2018/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://neon.kde.org/&#34;&gt;KDE Neon&lt;/a&gt; recently released a new version of their Linux distribution, which I have been testing for the past week. I would like to share my experience with you in this article.&lt;/p&gt;
+&lt;p&gt;The distribution is based on Ubuntu 18.04 &amp;ldquo;Bionic Beaver&amp;rdquo;, the latest long-term support &lt;a href=&#34;https://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; release. What makes KDE Neon an interesting and unique project is that they provide a rolling release of the KDE Plasma desktop environment on top of the stable Ubuntu LTS base. Let&#39;s find out if this mix of a stable base with a rolling KDE environment is a winning combination!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Google free Android</title>
+      <link>https://verummeum.com/google-free-android/</link>
+      <pubDate>Sun, 30 Sep 2018 16:20:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/google-free-android/</guid>
+      <description>&lt;p&gt;Is it possible to have a usable Android device without Google services or apps installed? Are there open-source, or at least more privacy friendly, alternatives to the Google apps and services most Android users depend on? I have been experimenting with my Android smartphone to find an answer to these questions. With this article I want to share how I have tried to achieve a Google free Android phone and what other options are available or will be available to you in the near future to also obtain a Google free Android device.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Siduction 2018.3 Cinnamon Review</title>
+      <link>https://verummeum.com/siduction-review-2018/</link>
+      <pubDate>Thu, 20 Sep 2018 15:28:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/siduction-review-2018/</guid>
+      <description>&lt;p&gt;The past week I tried to test &lt;a href=&#34;https://news.siduction.org/&#34;&gt;Siduction&lt;/a&gt; 2018.3, with the Cinnamon desktop environment. Siduction is a rolling-release Linux distribution based on Debian unstable, also known as Debian sid.&lt;/p&gt;
+&lt;p&gt;Siduction is available with many different desktop environments, namely KDE, LXQt, GNOME, Cinnamon, MATE, Xfce, Lxde, Xorg and noX. I chose to test the Cinnamon desktop because I have only used Cinnamon in combination with Linux Mint before, on which it ran very well, and I&#39;d like to see how it performs on another Linux distribution.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Search, comments and an image viewer with Hugo</title>
+      <link>https://verummeum.com/hugo-advanced-features/</link>
+      <pubDate>Sun, 16 Sep 2018 14:25:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/hugo-advanced-features/</guid>
+      <description>&lt;p&gt;In a &lt;a href=&#34;https://verummeum.com/how-verummeum-is-built/&#34;&gt;previous article&lt;/a&gt; I wrote about why I chose Hugo, a static site generator, as the framework on which to build Verummeum.&lt;/p&gt;
+&lt;p&gt;Now I would like to go more in depth on the more advanced features I was able to integrate into Verummeum using Hugo. I hope this guide will be interesting for anyone who would like to know about the possibilities of static site generators in general, and of Hugo specifically. I myself underestimated the capabilities of static site generators until recently when I started doing some research, and I am happy to share what I have learned in this article.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Voyager Live 18.04.1 Review</title>
+      <link>https://verummeum.com/voyager-live-review-2018/</link>
+      <pubDate>Sun, 09 Sep 2018 18:34:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/voyager-live-review-2018/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://voyagerlive.org/&#34;&gt;Voyager Live&lt;/a&gt; is a Xubuntu based Linux distribution, offering a heavily themed XFCE desktop. This distribution aims to deliver the best user experience by providing an aesthetically pleasing and immersive desktop environment.&lt;/p&gt;
+&lt;p&gt;The latest release of Voyager Live is based on the 18.04 Bionic Beaver long term support release of Xubuntu which is supported for 3 years. This is the version we will take a look at in this article.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How Verummeum is built, Hugo static site generator</title>
+      <link>https://verummeum.com/how-verummeum-is-built/</link>
+      <pubDate>Sun, 02 Sep 2018 14:19:00 +0200</pubDate>
+      
+      <guid>https://verummeum.com/how-verummeum-is-built/</guid>
+      <description>&lt;p&gt;Before I started building Verummeum I compared a number of different frameworks and content management systems.
+After researching the advantages and disadvantages of the different choices available, I finally decided to create Verummeum using Hugo.&lt;/p&gt;
+&lt;p&gt;Before I made the choice to use Hugo I first decided that I wanted to create Verummeum as a static website. A static website has a number of advantages compared to a dynamic website.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PCLinuxOS KDE Review</title>
+      <link>https://verummeum.com/pclinuxos-review-2018/</link>
+      <pubDate>Sat, 25 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://verummeum.com/pclinuxos-review-2018/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.pclinuxos.com/&#34;&gt;PCLinuxOS&lt;/a&gt; is a rolling release Linux distribution, offering a KDE and a MATE desktop version. Besides these official versions, other community maintained flavors for other desktop environments are available. This review is based on the KDE version of PCLinuxOS.&lt;/p&gt;
+&lt;p&gt;The distribution is based on Mandriva Linux and uses RPM packages. It is a rolling release distribution that favors stability over providing bleeding edge software.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
