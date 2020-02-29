@@ -5,10 +5,23 @@
     <description>Recent content in art on Verummeum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://verummeum.com/categories/art/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bursting Sky</title>
+      <link>https://verummeum.com/bursting-sky/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://verummeum.com/bursting-sky/</guid>
+      <description>Bursting Sky is a generative artwork made using Processing.
+ Variations on this work These are a few interesting alternatives using different variations of the same code used to generate the artwork above.
+       
+Video This video shows how the artwork is generated.
+  </description>
+    </item>
     
     <item>
       <title>Autumn Intensity</title>
