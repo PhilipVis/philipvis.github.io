@@ -15,7 +15,7 @@
   <meta name="description" content="Find out how Verummeum is built and why we choose to built it with Hugo, the static site generator.">
   
 
-  <meta name="generator" content="Hugo 0.61.0" />
+  <meta name="generator" content="Hugo 0.80.0" />
 
   
   
@@ -135,9 +135,9 @@
 <p>Now I would like to go more in depth on the more advanced features I was able to integrate into Verummeum using Hugo. I hope this guide will be interesting for anyone who would like to know about the possibilities of static site generators in general, and of Hugo specifically. I myself underestimated the capabilities of static site generators until recently when I started doing some research, and I am happy to share what I have learned in this article.</p>
 <h2 id="search">Search</h2>
 <p>One of the features I wanted to include in Verummeum was a search page, where a reader could easily search through all articles within Verummeum. Because a static website does not have a database it can query, my first thought was that I would have to rely on an external service like Google or Algolia to provide a search for Verummeum. Luckily the <a href="https://gohugo.io/tools/search">Hugo documentation</a> described a few alternatives using Lunr.js. <a href="https://lunrjs.com/">Lunr.js</a> is a small Javascript based text search library that can be used to search through JSON documents, to find matching documents based on a search query.</p>
-<p>The lunr.js integrations that are described in the Hugo documentation make use of an external build tool like Gulp or Grunt to build the actual JSON file that can be used by lunr.js, but I wanted to avoid having to use any external build tools to build Verummeum. On the <a href="https://discourse.gohugo.io/t/search-index-json-file-for-lunr-js/6286/5">Hugo Forum</a> I found instructions on how you can generate the JSON file by only making use of Hugo's built-in features.</p>
+<p>The lunr.js integrations that are described in the Hugo documentation make use of an external build tool like Gulp or Grunt to build the actual JSON file that can be used by lunr.js, but I wanted to avoid having to use any external build tools to build Verummeum. On the <a href="https://discourse.gohugo.io/t/search-index-json-file-for-lunr-js/6286/5">Hugo Forum</a> I found instructions on how you can generate the JSON file by only making use of Hugo&rsquo;s built-in features.</p>
 <h3 id="how-to-implement-a-lunrjs-search-page-in-hugo">How to implement a Lunr.js Search page in Hugo</h3>
-<p>Let's take a look at the code that is necessary to implement a search in Hugo using Lunr.js, without the use of any external build tools.</p>
+<p>Let&rsquo;s take a look at the code that is necessary to implement a search in Hugo using Lunr.js, without the use of any external build tools.</p>
 <p>The first step is to configure Hugo to output your content in the JSON format, since the JSON output format <a href="https://gohugo.io/templates/output-formats#output-formats-for-pages">is supported by Hugo</a>, this only requires enabling the JSON output in the config.toml configuration of the Hugo project.</p>
 <pre><code>[outputs]
   home = [&quot;HTML&quot;, &quot;JSON&quot;, &quot;RSS&quot;]
@@ -296,7 +296,7 @@ $(document).ready(function () {
 <p>The initLunr() function will retrieve our index.json file on page load. The initUI() will start to listen to the search field, so that when a user starts typing a search, we automatically start searching for matching articles. Finally, when articles are found, the renderResults() fuction will render the articles so that they become visible on the searh page in the results section. I have included this Javascript in a separate file <a href="https://github.com/PhilipVis/verummeum/blob/d65013ba1f3ee63da3be171f398aa62a8035d441/assets/js/lunr-search.js">lunr-search.js</a> which also needs to be added to the HTML with a script tag. Now we have a fully functional search page!</p>
 <h2 id="comments">Comments</h2>
 <p>I wanted readers of Verummeum to be able to leave comments with feedback and to further discuss the articles. Of course this is also harder to implement on a static website since you are not able to store the comments on a server without running a back-end that would allow you to store and retrieve comments. Again the awesome <a href="https://gohugo.io/content-management/comments">Hugo documentation</a> describes a few alternatives to implement comments on your static Hugo website.</p>
-<p>Hugo projects have Disqus integrated out of the box. If you would like to make use of the Disqus comment service, all you have to do is enable it in the config.toml configuration file. I had encountered Disqus before on other websites and used it to post comments, so I did consider using Disqus as the comment system on Verummeum. The reason I decided not to use Disqus was that I had read about issues with the service, like advertisements appearing on websites in their Disqus comments section and comments wrongfully being flagged as spam. I wanted to use a comment system without advertisements or tracking, so that my reader's privacy would be respected, and their comments would not be censored or wrongfully marked as spam.</p>
+<p>Hugo projects have Disqus integrated out of the box. If you would like to make use of the Disqus comment service, all you have to do is enable it in the config.toml configuration file. I had encountered Disqus before on other websites and used it to post comments, so I did consider using Disqus as the comment system on Verummeum. The reason I decided not to use Disqus was that I had read about issues with the service, like advertisements appearing on websites in their Disqus comments section and comments wrongfully being flagged as spam. I wanted to use a comment system without advertisements or tracking, so that my reader&rsquo;s privacy would be respected, and their comments would not be censored or wrongfully marked as spam.</p>
 <p>Luckily I found a link to <a href="https://utteranc.es/">Utterances</a> in the Hugo documentation. Utterances is a free and open source comments widget built on GitHub issues. Since Utterances is open source, I can guarantee that my readers are not being tracked, or that advertisements will never unknowingly appear on Verummeum. All comments are stored in github issues in the Verummeum github repository. When a comment is posted on one of our articles, Utterances will check if an issue already exists for that article, and will either create a new issue or add the comment to the existing issue for that article. This means our comments are not locked into a service like Disqus, but are freely and openly available.</p>
 <h3 id="how-to-enable-comments-using-utterances">How to enable comments using Utterances</h3>
 <p>To enable comments with Utterances on your websites, two steps need to be taken. Start by browsing to the <a href="https://utteranc.es/">Utterances website</a> and follow the instructions to generate a script tag that will need to be added to the HTML of your website, in the location you would like the comments to be shown.</p>
@@ -408,7 +408,7 @@ $(document).ready(function () {
     <div class="container">
         <div class="col-md-12">
             <p class="pull-left">
-                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> &nbsp;-&nbsp; VERUMMEUM 2020</p>
+                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> &nbsp;-&nbsp; VERUMMEUM 2021</p>
         </div>
     </div>
 </div>

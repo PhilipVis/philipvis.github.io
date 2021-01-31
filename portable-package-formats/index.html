@@ -15,7 +15,7 @@
   <meta name="description" content="In this article we compare the most popular independent package formats; Snap, Flatpak and AppImage.">
   
 
-  <meta name="generator" content="Hugo 0.61.0" />
+  <meta name="generator" content="Hugo 0.80.0" />
 
   
   
@@ -135,7 +135,7 @@
 <p>In this article we will take a look at the advantages and disadvantages of each package format individually, and of distribution independent package formats in general.</p>
 <h2 id="how-do-distribution-independent-package-formats-work">How do distribution independent package formats work?</h2>
 <p>Distribution independent package formats bundle software with all its dependencies required to run the software into a single package. This should allow a package to be run on nearly any system which supports the framework for that package format. This is different from traditional package formats like .deb and .rpm that require the dependencies of a software package to be installed on the system, and which are build to run on a specific system. Developers can thus build their software into a single package that could be run on most Linux distributions, instead of having to repackage their software to target specific Linux distributions.</p>
-<p>Because a developer will bundle software packages with all dependencies included, he also has te responsibility to keep the dependencies included in the package up to date with the latest security updates. If a package is not properly maintained by the software developer, then the distribution independent software package could pose a security risk to the system. This is also a contrast to the traditional software packages for which dependencies are maintained by the Linux distribution developers through the distribution's repositories.</p>
+<p>Because a developer will bundle software packages with all dependencies included, he also has te responsibility to keep the dependencies included in the package up to date with the latest security updates. If a package is not properly maintained by the software developer, then the distribution independent software package could pose a security risk to the system. This is also a contrast to the traditional software packages for which dependencies are maintained by the Linux distribution developers through the distribution&rsquo;s repositories.</p>
 <p>Because distribution independent packages include dependencies, they are in general also larger than traditional counterparts. The same dependency might be included in a number of different distribution independent packages, while traditional packages would all use the same dependency that only needs to be installed on the system once. This can also be an advantage if you want to be able to use different versions of software or certain libraries, which is more difficult to achieve when all your software uses the same version of a library or package.</p>
 <h2 id="snap">Snap</h2>
 <p>Snap is a distribution independent package format created by Canonical for Ubuntu, with a first release in 2014. Since then, other major distributions like Arch, Gentoo and Fedora have also integrated support for the Snap framework.</p>
@@ -146,7 +146,7 @@
 <h2 id="flatpak">Flatpak</h2>
 <p>The Flatpak package format is developed as an independent open-source project, with a first release in 2015. The main contributor to the Flatpak project is Fedora, but the Flatpak framework is also supported by most major Linux distributions. You can find the Flatpak source code on <a href="https://github.com/flatpak">Github</a>.</p>
 <p>The <a href="https://flathub.org/home">Flathub</a> website can be used to find and install Flatpak packages. Although the Flatpak package format has no restrictions regarding open-source or proprietary software, the Flathub app store initially only allowed open-source software to be published on their website. Recently some proprietary software has made it into the app store as well.</p>
-<p>In contrast to Snap's single repository controlled by Canonical, Flatpak does allow you to use multiple repositories to install and update Flatpak packages from.</p>
+<p>In contrast to Snap&rsquo;s single repository controlled by Canonical, Flatpak does allow you to use multiple repositories to install and update Flatpak packages from.</p>
 <p>For general information on the Flatpak framework and for guides on how to publish Flatpak packages, refer to the <a href="http://docs.flatpak.org/en/latest/">Flatpak documentation</a>.</p>
 <p>One major disadvantage of Flatpak is that it does not have server support, unlike Snap and AppImage. It is reliant on certain desktop session services that are not available on most Linux servers.</p>
 <p>On <a href="https://flathub.org/apps/category/All">Flathub</a> there are currently 418 Flatpak packages available, but because Flatpak does not have a single repository that contains all packages, the total amount of available Flatpak packages is likely higher.</p>
@@ -155,7 +155,7 @@
 <p>A list of available AppImage packages can be found on the <a href="https://appimage.github.io/apps/">AppImage website</a>. There are currently 502 packages listed on the website.</p>
 <p>AppImage does not make use of repositories to provide updates. Instead, an AppImage package can contain information on how the package can be updated. For AppImages that do contain this update information, a tool like <a href="https://github.com/AppImage/AppImageUpdate">AppImageUpdate</a> can help you to manually update your AppImage packages.</p>
 <h2 id="comparison">Comparison</h2>
-<p>I have tested two software packages that are available in the three different package formats. In this section we'll compare the size and performance of these packages to see if there are significant differences between the package formats. I have also included the performance of the eopkg packages, which are native on this <a href="https://getsol.us/home/">Solus</a> system.</p>
+<p>I have tested two software packages that are available in the three different package formats. In this section we&rsquo;ll compare the size and performance of these packages to see if there are significant differences between the package formats. I have also included the performance of the eopkg packages, which are native on this <a href="https://getsol.us/home/">Solus</a> system.</p>
 <h3 id="vlc">VLC</h3>
 <p>The first application I tested is VLC, a free and open-source media player.</p>
 <p>To have an easily repeatable test for the performance of VLC, I have measured the resource usage of VLC while playing the same video for each package version of VLC.</p>
@@ -297,7 +297,7 @@
     <div class="container">
         <div class="col-md-12">
             <p class="pull-left">
-                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> &nbsp;-&nbsp; VERUMMEUM 2020</p>
+                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> &nbsp;-&nbsp; VERUMMEUM 2021</p>
         </div>
     </div>
 </div>

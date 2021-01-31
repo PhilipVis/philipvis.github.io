@@ -16,7 +16,7 @@
       <pubDate>Sun, 08 Mar 2020 22:08:00 +0200</pubDate>
       
       <guid>https://verummeum.com/paid-email-services/</guid>
-      <description>&lt;p&gt;Almost everyone has at least one, and usually multiple, free email addresses from the tech giants like Google, Microsoft and Apple. It&#39;s generally mandatory to be able to use services from these companies, like the Google play store, or even just to install Windows and log in on your Windows PC.&lt;/p&gt;
+      <description>&lt;p&gt;Almost everyone has at least one, and usually multiple, free email addresses from the tech giants like Google, Microsoft and Apple. It&amp;rsquo;s generally mandatory to be able to use services from these companies, like the Google play store, or even just to install Windows and log in on your Windows PC.&lt;/p&gt;
 &lt;p&gt;Because you already have these free email addresses, it can be convenient to also use them as your main means to send and receive email. In this article I want to discuss a few reasons why you might want to consider a paid email service instead of using these free email addresses everywhere.&lt;/p&gt;</description>
     </item>
     
@@ -52,8 +52,8 @@ Video This video shows how the artwork is generated.
       <pubDate>Sun, 16 Dec 2018 16:04:00 +0200</pubDate>
       
       <guid>https://verummeum.com/deepin-review-2018/</guid>
-      <description>&lt;p&gt;In this article we&#39;ll take a look at a Linux distribution originating from China. The distribution is called &lt;a href=&#34;https://www.deepin.org&#34;&gt;Deepin Linux&lt;/a&gt; and it&#39;s based on Debian&#39;s unstable branch. The Linux distribution only has one version with their own Deepin desktop environment.&lt;/p&gt;
-&lt;p&gt;The purpose of Deepin Linux is to provide an easy to use, reliable and beautiful desktop that meets the needs of most home users. Let&#39;s see if this Chinese distribution achieves its goals!&lt;/p&gt;</description>
+      <description>&lt;p&gt;In this article we&amp;rsquo;ll take a look at a Linux distribution originating from China. The distribution is called &lt;a href=&#34;https://www.deepin.org&#34;&gt;Deepin Linux&lt;/a&gt; and it&amp;rsquo;s based on Debian&amp;rsquo;s unstable branch. The Linux distribution only has one version with their own Deepin desktop environment.&lt;/p&gt;
+&lt;p&gt;The purpose of Deepin Linux is to provide an easy to use, reliable and beautiful desktop that meets the needs of most home users. Let&amp;rsquo;s see if this Chinese distribution achieves its goals!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -80,7 +80,7 @@ Video This video shows how the artwork is generated.
       <pubDate>Sun, 04 Nov 2018 16:35:00 +0200</pubDate>
       
       <guid>https://verummeum.com/bluestar-review-2018/</guid>
-      <description>&lt;p&gt;As some of you know, installing &lt;a href=&#34;https://www.archlinux.org/&#34;&gt;Arch Linux&lt;/a&gt; can be a daunting task. Let&#39;s take a look at &lt;a href=&#34;https://sourceforge.net/projects/bluestarlinux/&#34;&gt;Bluestar Linux&lt;/a&gt;, a rolling release Linux distribution that tries to make Arch Linux easier to install by providing a full-featured Arch based system.&lt;/p&gt;
+      <description>&lt;p&gt;As some of you know, installing &lt;a href=&#34;https://www.archlinux.org/&#34;&gt;Arch Linux&lt;/a&gt; can be a daunting task. Let&amp;rsquo;s take a look at &lt;a href=&#34;https://sourceforge.net/projects/bluestarlinux/&#34;&gt;Bluestar Linux&lt;/a&gt;, a rolling release Linux distribution that tries to make Arch Linux easier to install by providing a full-featured Arch based system.&lt;/p&gt;
 &lt;p&gt;The distribution sports the latest KDE Plasma desktop and is available in three editions; desktop, deskpro and developer. The installation medium for these three editions is the same, you will just have to choose an edition at the start of the installation. The differences between these editions are limited to the applications that will be installed. In this article we will take a look at the desktop edition.&lt;/p&gt;</description>
     </item>
     
@@ -111,7 +111,7 @@ Video This video shows how the artwork is generated.
       
       <guid>https://verummeum.com/kde-neon-review-2018/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://neon.kde.org/&#34;&gt;KDE Neon&lt;/a&gt; recently released a new version of their Linux distribution, which I have been testing for the past week. I would like to share my experience with you in this article.&lt;/p&gt;
-&lt;p&gt;The distribution is based on Ubuntu 18.04 &amp;ldquo;Bionic Beaver&amp;rdquo;, the latest long-term support &lt;a href=&#34;https://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; release. What makes KDE Neon an interesting and unique project is that they provide a rolling release of the KDE Plasma desktop environment on top of the stable Ubuntu LTS base. Let&#39;s find out if this mix of a stable base with a rolling KDE environment is a winning combination!&lt;/p&gt;</description>
+&lt;p&gt;The distribution is based on Ubuntu 18.04 &amp;ldquo;Bionic Beaver&amp;rdquo;, the latest long-term support &lt;a href=&#34;https://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; release. What makes KDE Neon an interesting and unique project is that they provide a rolling release of the KDE Plasma desktop environment on top of the stable Ubuntu LTS base. Let&amp;rsquo;s find out if this mix of a stable base with a rolling KDE environment is a winning combination!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -130,7 +130,7 @@ Video This video shows how the artwork is generated.
       
       <guid>https://verummeum.com/siduction-review-2018/</guid>
       <description>&lt;p&gt;The past week I tried to test &lt;a href=&#34;https://news.siduction.org/&#34;&gt;Siduction&lt;/a&gt; 2018.3, with the Cinnamon desktop environment. Siduction is a rolling-release Linux distribution based on Debian unstable, also known as Debian sid.&lt;/p&gt;
-&lt;p&gt;Siduction is available with many different desktop environments, namely KDE, LXQt, GNOME, Cinnamon, MATE, Xfce, Lxde, Xorg and noX. I chose to test the Cinnamon desktop because I have only used Cinnamon in combination with Linux Mint before, on which it ran very well, and I&#39;d like to see how it performs on another Linux distribution.&lt;/p&gt;</description>
+&lt;p&gt;Siduction is available with many different desktop environments, namely KDE, LXQt, GNOME, Cinnamon, MATE, Xfce, Lxde, Xorg and noX. I chose to test the Cinnamon desktop because I have only used Cinnamon in combination with Linux Mint before, on which it ran very well, and I&amp;rsquo;d like to see how it performs on another Linux distribution.&lt;/p&gt;</description>
     </item>
     
     <item>
